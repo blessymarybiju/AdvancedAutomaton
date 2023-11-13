@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\Dijish\eclipse-workspace\Advanced_AutomationFramework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">23 methods, 5 failed,  8 skipped,  10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateTransactionsPageMessage">validateTransactionsPageMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.naveenautomation.pageTests.LoginPageTest" class="method navigator-link" hash-for-method="validateUserCanAccessFwdPwdWithValidCredentials">validateUserCanAccessFwdPwdWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.naveenautomation.pageTests.LoginPageTest" class="method navigator-link" hash-for-method="validateUserCanNotLoginWithInValidCredentials">validateUserCanNotLoginWithInValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.naveenautomation.pageTests.ForgetPasswordTest" class="method navigator-link" hash-for-method="validateUserCannotChangePwdWithInValidCredentials">validateUserCannotChangePwdWithInValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateWishListMessage">validateWishListMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.naveenautomation.pageTests.HomePageTest" class="method navigator-link" hash-for-method="validateContactUsEnquiryMessage">validateContactUsEnquiryMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.naveenautomation.pageTests.HomePageTest" class="method navigator-link" hash-for-method="validateEmptyCartMessage">validateEmptyCartMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.naveenautomation.pageTests.HomePageTest" class="method navigator-link" hash-for-method="validateUserCanLogout">validateUserCanLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateTransactionsPageMessage">validateTransactionsPageMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.naveenautomation.pageTests.LoginPageTest" class="method navigator-link" hash-for-method="validateUserCanAccessFwdPwdWithValidCredentials">validateUserCanAccessFwdPwdWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.naveenautomation.pageTests.LoginPageTest" class="method navigator-link" hash-for-method="validateUserCanNotLoginWithInValidCredentials">validateUserCanNotLoginWithInValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.naveenautomation.pageTests.ForgetPasswordTest" class="method navigator-link" hash-for-method="validateUserCannotChangePwdWithInValidCredentials">validateUserCannotChangePwdWithInValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateWishListMessage">validateWishListMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateAccountDownloadsMessage">validateAccountDownloadsMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateLoginWithMultipleCredentials(andreas@email.com, qwerty)">validateLoginWithMultipleCredentials(andreas@email.com, qwerty)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateLoginWithMultipleCredentials(navenncxe@gmail.com, abcd)">validateLoginWithMultipleCredentials(navenncxe@gmail.com, abcd)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateLoginWithMultipleCredentials(naveen@email.com, abcd)">validateLoginWithMultipleCredentials(naveen@email.com, abcd)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validatePaymentsMessage">validatePaymentsMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateProductReturnMessage">validateProductReturnMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateUserCanChangePassword">validateUserCanChangePassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateUserCanLoginWithValidCredentials">validateUserCanLoginWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateUserCanSubscribeNewsLetter">validateUserCanSubscribeNewsLetter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateUserCanUpdatePersonalInfo">validateUserCanUpdatePersonalInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.naveenautomation.pageTests.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanAccessFwdPwdWithValidCredentials">
+                  </a> <!-- validateUserCanAccessFwdPwdWithValidCredentials -->
+                  <span class="method-name">validateUserCanAccessFwdPwdWithValidCredentials</span>
+                  <div class="stack-trace">java.lang.Error
+	at com.naveenautomation.pages.ForgottenPasswordPage.isLoaded(ForgottenPasswordPage.java:38)
+	at com.naveenautomation.pages.Page.waitForPageToLoad(Page.java:26)
+	at com.naveenautomation.pages.Page.&lt;init&gt;(Page.java:12)
+	at com.naveenautomation.pages.ForgottenPasswordPage.&lt;init&gt;(ForgottenPasswordPage.java:13)
+	at com.naveenautomation.pages.LoginPage.clickForgetPwdLink(LoginPage.java:48)
+	at com.naveenautomation.pageTests.LoginPageTest.validateUserCanAccessFwdPwdWithValidCredentials(LoginPageTest.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanNotLoginWithInValidCredentials">
+                  </a> <!-- validateUserCanNotLoginWithInValidCredentials -->
+                  <span class="method-name">validateUserCanNotLoginWithInValidCredentials</span>
+                  <div class="stack-trace">java.lang.Error
+	at com.naveenautomation.pages.AccountPage.isLoaded(AccountPage.java:58)
+	at com.naveenautomation.pages.Page.waitForPageToLoad(Page.java:26)
+	at com.naveenautomation.pages.Page.&lt;init&gt;(Page.java:12)
+	at com.naveenautomation.pages.AccountPage.&lt;init&gt;(AccountPage.java:11)
+	at com.naveenautomation.pages.LoginPage.SubmitLogin(LoginPage.java:35)
+	at com.naveenautomation.pageTests.LoginPageTest.validateUserCanNotLoginWithInValidCredentials(LoginPageTest.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.naveenautomation.pageTests.AccountPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateTransactionsPageMessage">
+                  </a> <!-- validateTransactionsPageMessage -->
+                  <span class="method-name">validateTransactionsPageMessage</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.naveenautomation.pages.GeneralPage$1@c0004b7 (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-07R9VU7F&apos;, ip: &apos;10.0.0.78&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: com.naveenautomation.proxyDriver.ProxyDriver
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.naveenautomation.pages.GeneralPage.waitForPageToLoad(GeneralPage.java:122)
+	at com.naveenautomation.pages.GeneralPage.waitForPageToLoad(GeneralPage.java:115)
+	at com.naveenautomation.pages.SideNavBar.OpenPageByClickOnSideNavBar(SideNavBar.java:29)
+	at com.naveenautomation.pageTests.AccountPageTest.validateTransactionsPageMessage(AccountPageTest.java:158)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateWishListMessage">
+                  </a> <!-- validateWishListMessage -->
+                  <span class="method-name">validateWishListMessage</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.naveenautomation.pages.GeneralPage$1@1c97c3bb (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-07R9VU7F&apos;, ip: &apos;10.0.0.78&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: com.naveenautomation.proxyDriver.ProxyDriver
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.naveenautomation.pages.GeneralPage.waitForPageToLoad(GeneralPage.java:122)
+	at com.naveenautomation.pages.GeneralPage.waitForPageToLoad(GeneralPage.java:115)
+	at com.naveenautomation.pages.SideNavBar.OpenPageByClickOnSideNavBar(SideNavBar.java:29)
+	at com.naveenautomation.pageTests.AccountPageTest.validateWishListMessage(AccountPageTest.java:125)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.naveenautomation.pageTests.ForgetPasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCannotChangePwdWithInValidCredentials">
+                  </a> <!-- validateUserCannotChangePwdWithInValidCredentials -->
+                  <span class="method-name">validateUserCannotChangePwdWithInValidCredentials</span>
+                  <div class="stack-trace">java.lang.Error
+	at com.naveenautomation.pages.ForgottenPasswordPage.isLoaded(ForgottenPasswordPage.java:38)
+	at com.naveenautomation.pages.Page.waitForPageToLoad(Page.java:26)
+	at com.naveenautomation.pages.Page.&lt;init&gt;(Page.java:12)
+	at com.naveenautomation.pages.ForgottenPasswordPage.&lt;init&gt;(ForgottenPasswordPage.java:13)
+	at com.naveenautomation.pages.LoginPage.clickForgetPwdLink(LoginPage.java:48)
+	at com.naveenautomation.pageTests.ForgetPasswordTest.validateUserCannotChangePwdWithInValidCredentials(ForgetPasswordTest.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.naveenautomation.pageTests.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanAccessFwdPwdWithValidCredentials">
+                  </a> <!-- validateUserCanAccessFwdPwdWithValidCredentials -->
+                  <span class="method-name">validateUserCanAccessFwdPwdWithValidCredentials</span>
+                  <div class="stack-trace">java.lang.Error
+	at com.naveenautomation.pages.ForgottenPasswordPage.isLoaded(ForgottenPasswordPage.java:38)
+	at com.naveenautomation.pages.Page.waitForPageToLoad(Page.java:26)
+	at com.naveenautomation.pages.Page.&lt;init&gt;(Page.java:12)
+	at com.naveenautomation.pages.ForgottenPasswordPage.&lt;init&gt;(ForgottenPasswordPage.java:13)
+	at com.naveenautomation.pages.LoginPage.clickForgetPwdLink(LoginPage.java:48)
+	at com.naveenautomation.pageTests.LoginPageTest.validateUserCanAccessFwdPwdWithValidCredentials(LoginPageTest.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanNotLoginWithInValidCredentials">
+                  </a> <!-- validateUserCanNotLoginWithInValidCredentials -->
+                  <span class="method-name">validateUserCanNotLoginWithInValidCredentials</span>
+                  <div class="stack-trace">java.lang.Error
+	at com.naveenautomation.pages.AccountPage.isLoaded(AccountPage.java:58)
+	at com.naveenautomation.pages.Page.waitForPageToLoad(Page.java:26)
+	at com.naveenautomation.pages.Page.&lt;init&gt;(Page.java:12)
+	at com.naveenautomation.pages.AccountPage.&lt;init&gt;(AccountPage.java:11)
+	at com.naveenautomation.pages.LoginPage.SubmitLogin(LoginPage.java:35)
+	at com.naveenautomation.pageTests.LoginPageTest.validateUserCanNotLoginWithInValidCredentials(LoginPageTest.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.naveenautomation.pageTests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateContactUsEnquiryMessage">
+                  </a> <!-- validateContactUsEnquiryMessage -->
+                  <span class="method-name">validateContactUsEnquiryMessage</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.105)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-07R9VU7F&apos;, ip: &apos;10.0.0.78&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.105, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Dijish\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61687}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b7f18af10a8c4f4a8d806b9dc3733d02
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at com.naveenautomation.base.TestBase.intialisation(TestBase.java:59)
+	at com.naveenautomation.pageTests.HomePageTest.launch(HomePageTest.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateEmptyCartMessage">
+                  </a> <!-- validateEmptyCartMessage -->
+                  <span class="method-name">validateEmptyCartMessage</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.105)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-07R9VU7F&apos;, ip: &apos;10.0.0.78&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.105, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Dijish\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61687}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b7f18af10a8c4f4a8d806b9dc3733d02
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at com.naveenautomation.base.TestBase.intialisation(TestBase.java:59)
+	at com.naveenautomation.pageTests.HomePageTest.launch(HomePageTest.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanLogout">
+                  </a> <!-- validateUserCanLogout -->
+                  <span class="method-name">validateUserCanLogout</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.105)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-07R9VU7F&apos;, ip: &apos;10.0.0.78&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.105, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Dijish\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61687}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b7f18af10a8c4f4a8d806b9dc3733d02
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at com.naveenautomation.base.TestBase.intialisation(TestBase.java:59)
+	at com.naveenautomation.pageTests.HomePageTest.launch(HomePageTest.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.naveenautomation.pageTests.AccountPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateTransactionsPageMessage">
+                  </a> <!-- validateTransactionsPageMessage -->
+                  <span class="method-name">validateTransactionsPageMessage</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.naveenautomation.pages.GeneralPage$1@6475e778 (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-07R9VU7F&apos;, ip: &apos;10.0.0.78&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: com.naveenautomation.proxyDriver.ProxyDriver
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.naveenautomation.pages.GeneralPage.waitForPageToLoad(GeneralPage.java:122)
+	at com.naveenautomation.pages.GeneralPage.waitForPageToLoad(GeneralPage.java:115)
+	at com.naveenautomation.pages.SideNavBar.OpenPageByClickOnSideNavBar(SideNavBar.java:29)
+	at com.naveenautomation.pageTests.AccountPageTest.validateTransactionsPageMessage(AccountPageTest.java:158)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateWishListMessage">
+                  </a> <!-- validateWishListMessage -->
+                  <span class="method-name">validateWishListMessage</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.naveenautomation.pages.GeneralPage$1@54780c40 (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-07R9VU7F&apos;, ip: &apos;10.0.0.78&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: com.naveenautomation.proxyDriver.ProxyDriver
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.naveenautomation.pages.GeneralPage.waitForPageToLoad(GeneralPage.java:122)
+	at com.naveenautomation.pages.GeneralPage.waitForPageToLoad(GeneralPage.java:115)
+	at com.naveenautomation.pages.SideNavBar.OpenPageByClickOnSideNavBar(SideNavBar.java:29)
+	at com.naveenautomation.pageTests.AccountPageTest.validateWishListMessage(AccountPageTest.java:125)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.naveenautomation.pageTests.ForgetPasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCannotChangePwdWithInValidCredentials">
+                  </a> <!-- validateUserCannotChangePwdWithInValidCredentials -->
+                  <span class="method-name">validateUserCannotChangePwdWithInValidCredentials</span>
+                  <div class="stack-trace">java.lang.Error
+	at com.naveenautomation.pages.ForgottenPasswordPage.isLoaded(ForgottenPasswordPage.java:38)
+	at com.naveenautomation.pages.Page.waitForPageToLoad(Page.java:26)
+	at com.naveenautomation.pages.Page.&lt;init&gt;(Page.java:12)
+	at com.naveenautomation.pages.ForgottenPasswordPage.&lt;init&gt;(ForgottenPasswordPage.java:13)
+	at com.naveenautomation.pages.LoginPage.clickForgetPwdLink(LoginPage.java:48)
+	at com.naveenautomation.pageTests.ForgetPasswordTest.validateUserCannotChangePwdWithInValidCredentials(ForgetPasswordTest.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.naveenautomation.pageTests.AccountPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAccountDownloadsMessage">
+                  </a> <!-- validateAccountDownloadsMessage -->
+                  <span class="method-name">validateAccountDownloadsMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginWithMultipleCredentials(andreas@email.com, qwerty)">
+                  </a> <!-- validateLoginWithMultipleCredentials(andreas@email.com, qwerty) -->
+                  <span class="method-name">validateLoginWithMultipleCredentials</span>
+                  <span class="parameters">(andreas@email.com,qwerty)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginWithMultipleCredentials(navenncxe@gmail.com, abcd)">
+                  </a> <!-- validateLoginWithMultipleCredentials(navenncxe@gmail.com, abcd) -->
+                  <span class="method-name">validateLoginWithMultipleCredentials</span>
+                  <span class="parameters">(navenncxe@gmail.com,abcd)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginWithMultipleCredentials(naveen@email.com, abcd)">
+                  </a> <!-- validateLoginWithMultipleCredentials(naveen@email.com, abcd) -->
+                  <span class="method-name">validateLoginWithMultipleCredentials</span>
+                  <span class="parameters">(naveen@email.com,abcd)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePaymentsMessage">
+                  </a> <!-- validatePaymentsMessage -->
+                  <span class="method-name">validatePaymentsMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateProductReturnMessage">
+                  </a> <!-- validateProductReturnMessage -->
+                  <span class="method-name">validateProductReturnMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanChangePassword">
+                  </a> <!-- validateUserCanChangePassword -->
+                  <span class="method-name">validateUserCanChangePassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanLoginWithValidCredentials">
+                  </a> <!-- validateUserCanLoginWithValidCredentials -->
+                  <span class="method-name">validateUserCanLoginWithValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanSubscribeNewsLetter">
+                  </a> <!-- validateUserCanSubscribeNewsLetter -->
+                  <span class="method-name">validateUserCanSubscribeNewsLetter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanUpdatePersonalInfo">
+                  </a> <!-- validateUserCanUpdatePersonalInfo -->
+                  <span class="method-name">validateUserCanUpdatePersonalInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Dijish\eclipse-workspace\Advanced_AutomationFramework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.naveenautomation.utils.CustomListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.naveenautomation.utils.TransformerForRetry&quot;/&gt;
+    &lt;listener class-name=&quot;com.naveenautomation.utils.ExtentReportListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.naveenautomation.pageTests.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.naveenautomation.pageTests.ForgetPasswordTest&quot;/&gt;
+      &lt;class name=&quot;com.naveenautomation.pageTests.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.naveenautomation.pageTests.AccountPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(23);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validateWishListMessage')
+data.setCell(0, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(0, 3, 32207);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateTransactionsPageMessage')
+data.setCell(1, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(1, 3, 32019);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateTransactionsPageMessage')
+data.setCell(2, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(2, 3, 31933);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateWishListMessage')
+data.setCell(3, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(3, 3, 31721);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateUserCanChangePassword')
+data.setCell(4, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(4, 3, 5050);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validateUserCanUpdatePersonalInfo')
+data.setCell(5, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(5, 3, 3300);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateAccountDownloadsMessage')
+data.setCell(6, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(6, 3, 2952);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validateUserCanSubscribeNewsLetter')
+data.setCell(7, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(7, 3, 2730);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validatePaymentsMessage')
+data.setCell(8, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(8, 3, 2331);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validateProductReturnMessage')
+data.setCell(9, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(9, 3, 2171);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validateLoginWithMultipleCredentials')
+data.setCell(10, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(10, 3, 1904);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'validateLoginWithMultipleCredentials')
+data.setCell(11, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(11, 3, 1244);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'validateUserCanLoginWithValidCredentials')
+data.setCell(12, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(12, 3, 1199);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validateLoginWithMultipleCredentials')
+data.setCell(13, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(13, 3, 1167);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'validateUserCanNotLoginWithInValidCredentials')
+data.setCell(14, 2, 'com.naveenautomation.pageTests.LoginPageTest')
+data.setCell(14, 3, 1075);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validateUserCanNotLoginWithInValidCredentials')
+data.setCell(15, 2, 'com.naveenautomation.pageTests.LoginPageTest')
+data.setCell(15, 3, 928);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'validateUserCannotChangePwdWithInValidCredentials')
+data.setCell(16, 2, 'com.naveenautomation.pageTests.ForgetPasswordTest')
+data.setCell(16, 3, 773);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'validateUserCanAccessFwdPwdWithValidCredentials')
+data.setCell(17, 2, 'com.naveenautomation.pageTests.LoginPageTest')
+data.setCell(17, 3, 671);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'validateUserCanAccessFwdPwdWithValidCredentials')
+data.setCell(18, 2, 'com.naveenautomation.pageTests.LoginPageTest')
+data.setCell(18, 3, 591);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'validateUserCannotChangePwdWithInValidCredentials')
+data.setCell(19, 2, 'com.naveenautomation.pageTests.ForgetPasswordTest')
+data.setCell(19, 3, 544);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'validateEmptyCartMessage')
+data.setCell(20, 2, 'com.naveenautomation.pageTests.HomePageTest')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'validateUserCanLogout')
+data.setCell(21, 2, 'com.naveenautomation.pageTests.HomePageTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'validateContactUsEnquiryMessage')
+data.setCell(22, 2, 'com.naveenautomation.pageTests.HomePageTest')
+data.setCell(22, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.naveenautomation.pageTests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loggerSteup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">launch</span>
+                <span class="method-start">93 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">23050 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">23069 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.naveenautomation.pageTests.ForgetPasswordTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loggerSteup</span>
+                <span class="method-start">23110 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">23144 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCannotChangePwdWithInValidCredentials</span>
+                <span class="method-start">35417 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">36197 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">36844 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateUserCannotChangePwdWithInValidCredentials</span>
+                <span class="method-start">46590 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">47452 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.naveenautomation.pageTests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loggerSteup</span>
+                <span class="method-start">48130 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">48132 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCanAccessFwdPwdWithValidCredentials</span>
+                <span class="method-start">58171 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">58765 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">59410 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateUserCanAccessFwdPwdWithValidCredentials</span>
+                <span class="method-start">70797 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">71615 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">73753 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCanNotLoginWithInValidCredentials</span>
+                <span class="method-start">82720 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">83654 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">84664 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateUserCanNotLoginWithInValidCredentials</span>
+                <span class="method-start">95386 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">96778 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.naveenautomation.pageTests.AccountPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loggerSteup</span>
+                <span class="method-start">99945 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">99947 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateAccountDownloadsMessage</span>
+                <span class="method-start">113712 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">116666 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">120237 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateLoginWithMultipleCredentials(navenncxe@gmail.com, abcd)</span>
+                <span class="method-start">130412 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">131581 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">131951 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateLoginWithMultipleCredentials(andreas@email.com, qwerty)</span>
+                <span class="method-start">142697 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">144603 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">146418 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateLoginWithMultipleCredentials(naveen@email.com, abcd)</span>
+                <span class="method-start">155438 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">156683 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">157111 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatePaymentsMessage</span>
+                <span class="method-start">166264 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">168596 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">169004 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateProductReturnMessage</span>
+                <span class="method-start">183314 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">185487 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">185717 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateTransactionsPageMessage</span>
+                <span class="method-start">193995 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">226018 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">226748 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateTransactionsPageMessage</span>
+                <span class="method-start">234859 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">266956 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">269002 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCanChangePassword</span>
+                <span class="method-start">277708 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">282760 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">282953 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCanLoginWithValidCredentials</span>
+                <span class="method-start">291499 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">292700 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">293278 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCanSubscribeNewsLetter</span>
+                <span class="method-start">300621 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">303352 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">303772 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCanUpdatePersonalInfo</span>
+                <span class="method-start">312291 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">315592 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">315999 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateWishListMessage</span>
+                <span class="method-start">325550 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">357759 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">359301 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateWishListMessage</span>
+                <span class="method-start">378252 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">411516 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

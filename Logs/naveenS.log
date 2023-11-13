@@ -1,0 +1,936 @@
+2023-10-16 14:52:52 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 14:52:55 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 14:53:35 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 14:53:39 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 14:56:21 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 14:56:21 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 14:56:21 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 14:56:32 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 14:56:32 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 14:56:32 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 14:56:33 INFO  TestBase:87 - Finding element using By.id: input-email
+2023-10-16 14:56:33 INFO  TestBase:87 - Finding element using By.id: input-email
+2023-10-16 14:56:33 INFO  TestBase:87 - Finding element using By.id: input-email
+2023-10-16 14:56:33 INFO  TestBase:93 - Found element using By.id: input-email
+2023-10-16 14:56:33 INFO  TestBase:93 - Found element using By.id: input-email
+2023-10-16 14:56:34 INFO  TestBase:93 - Found element using By.id: input-email
+2023-10-16 14:56:34 INFO  TestBase:87 - Finding element using By.id: input-password
+2023-10-16 14:56:34 INFO  TestBase:87 - Finding element using By.id: input-password
+2023-10-16 14:56:34 INFO  TestBase:93 - Found element using By.id: input-password
+2023-10-16 14:56:34 INFO  TestBase:93 - Found element using By.id: input-password
+2023-10-16 14:56:34 INFO  TestBase:87 - Finding element using By.cssSelector: input[type='Submit']
+2023-10-16 14:56:34 INFO  TestBase:87 - Finding element using By.cssSelector: input[type='Submit']
+2023-10-16 14:56:34 INFO  TestBase:93 - Found element using By.cssSelector: input[type='Submit']
+2023-10-16 14:56:34 INFO  TestBase:93 - Found element using By.cssSelector: input[type='Submit']
+2023-10-16 14:56:34 INFO  TestBase:99 - Clicking on 
+2023-10-16 14:56:34 INFO  TestBase:99 - Clicking on 
+2023-10-16 14:56:34 INFO  TestBase:87 - Finding element using By.id: input-password
+2023-10-16 14:56:34 INFO  TestBase:93 - Found element using By.id: input-password
+2023-10-16 14:56:35 INFO  TestBase:87 - Finding element using By.cssSelector: input[type='Submit']
+2023-10-16 14:56:35 INFO  TestBase:93 - Found element using By.cssSelector: input[type='Submit']
+2023-10-16 14:56:35 INFO  TestBase:99 - Clicking on 
+2023-10-16 14:56:35 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (809f47876c8aa345f34d734c562021d8)] -> css selector: input[type='Submit']]
+2023-10-16 14:56:35 INFO  TestBase:87 - Finding element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 14:56:35 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (2ca67b3cc0d74da1150ea08f0d3699a1)] -> css selector: input[type='Submit']]
+2023-10-16 14:56:35 INFO  TestBase:87 - Finding element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 14:56:35 INFO  TestBase:93 - Found element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 14:56:35 INFO  TestBase:165 - Getting text on My Account
+2023-10-16 14:56:35 INFO  TestBase:93 - Found element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 14:56:35 INFO  TestBase:171 - Got text on My Account
+2023-10-16 14:56:35 INFO  TestBase:165 - Getting text on My Account
+2023-10-16 14:56:35 INFO  TestBase:171 - Got text on My Account
+2023-10-16 14:56:36 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (3210344c1db934b6beda0990dac0a10d)] -> css selector: input[type='Submit']]
+2023-10-16 14:56:36 INFO  TestBase:87 - Finding element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 14:56:36 INFO  TestBase:93 - Found element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 14:56:36 INFO  TestBase:165 - Getting text on My Account
+2023-10-16 14:56:36 INFO  TestBase:171 - Got text on My Account
+2023-10-16 14:56:41 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 14:56:41 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 14:56:42 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 14:56:52 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 14:56:52 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 14:56:52 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 14:56:56 INFO  TestBase:87 - Finding element using By.id: input-email
+2023-10-16 14:56:56 INFO  TestBase:93 - Found element using By.id: input-email
+2023-10-16 14:56:56 INFO  TestBase:87 - Finding element using By.id: input-email
+2023-10-16 14:56:56 INFO  TestBase:93 - Found element using By.id: input-email
+2023-10-16 14:56:57 INFO  TestBase:87 - Finding element using By.id: input-password
+2023-10-16 14:56:57 INFO  TestBase:93 - Found element using By.id: input-password
+2023-10-16 14:56:57 INFO  TestBase:87 - Finding element using By.id: input-password
+2023-10-16 14:56:57 INFO  TestBase:93 - Found element using By.id: input-password
+2023-10-16 14:56:57 INFO  TestBase:87 - Finding element using By.id: input-email
+2023-10-16 14:56:57 INFO  TestBase:93 - Found element using By.id: input-email
+2023-10-16 14:56:57 INFO  TestBase:87 - Finding element using By.cssSelector: input[type='Submit']
+2023-10-16 14:56:57 INFO  TestBase:93 - Found element using By.cssSelector: input[type='Submit']
+2023-10-16 14:56:57 INFO  TestBase:99 - Clicking on 
+2023-10-16 14:56:57 INFO  TestBase:87 - Finding element using By.id: input-password
+2023-10-16 14:56:57 INFO  TestBase:87 - Finding element using By.cssSelector: input[type='Submit']
+2023-10-16 14:56:57 INFO  TestBase:93 - Found element using By.id: input-password
+2023-10-16 14:56:57 INFO  TestBase:93 - Found element using By.cssSelector: input[type='Submit']
+2023-10-16 14:56:57 INFO  TestBase:99 - Clicking on 
+2023-10-16 14:56:57 INFO  TestBase:87 - Finding element using By.cssSelector: input[type='Submit']
+2023-10-16 14:56:57 INFO  TestBase:93 - Found element using By.cssSelector: input[type='Submit']
+2023-10-16 14:56:57 INFO  TestBase:99 - Clicking on 
+2023-10-16 14:56:59 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (f6be08c3c17d0df7c063b062c1edb9e1)] -> css selector: input[type='Submit']]
+2023-10-16 14:56:59 INFO  TestBase:87 - Finding element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 14:56:59 INFO  TestBase:93 - Found element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 14:56:59 INFO  TestBase:165 - Getting text on My Account
+2023-10-16 14:56:59 INFO  TestBase:171 - Got text on My Account
+2023-10-16 14:56:59 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (c81c926f63d77f0623d0678c42629e92)] -> css selector: input[type='Submit']]
+2023-10-16 14:56:59 INFO  TestBase:87 - Finding element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 14:56:59 INFO  TestBase:93 - Found element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 14:56:59 INFO  TestBase:165 - Getting text on My Account
+2023-10-16 14:56:59 INFO  TestBase:171 - Got text on My Account
+2023-10-16 14:56:59 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (01435e93926465b6faa85d95539823dc)] -> css selector: input[type='Submit']]
+2023-10-16 14:56:59 INFO  TestBase:87 - Finding element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 14:56:59 INFO  TestBase:93 - Found element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 14:56:59 INFO  TestBase:165 - Getting text on My Account
+2023-10-16 14:56:59 INFO  TestBase:171 - Got text on My Account
+2023-10-16 14:57:02 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 14:57:03 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 14:57:05 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 14:57:09 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 14:57:10 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 14:57:11 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 14:57:11 INFO  TestBase:87 - Finding element using By.id: input-email
+2023-10-16 14:57:11 INFO  TestBase:93 - Found element using By.id: input-email
+2023-10-16 14:57:12 INFO  TestBase:87 - Finding element using By.id: input-password
+2023-10-16 14:57:12 INFO  TestBase:93 - Found element using By.id: input-password
+2023-10-16 14:57:12 INFO  TestBase:87 - Finding element using By.cssSelector: input[type='Submit']
+2023-10-16 14:57:12 INFO  TestBase:93 - Found element using By.cssSelector: input[type='Submit']
+2023-10-16 14:57:12 INFO  TestBase:99 - Clicking on 
+2023-10-16 14:57:12 INFO  TestBase:87 - Finding element using By.id: input-email
+2023-10-16 14:57:12 INFO  TestBase:93 - Found element using By.id: input-email
+2023-10-16 14:57:12 INFO  TestBase:87 - Finding element using By.id: input-password
+2023-10-16 14:57:12 INFO  TestBase:93 - Found element using By.id: input-password
+2023-10-16 14:57:12 INFO  TestBase:87 - Finding element using By.cssSelector: input[type='Submit']
+2023-10-16 14:57:12 INFO  TestBase:93 - Found element using By.cssSelector: input[type='Submit']
+2023-10-16 14:57:12 INFO  TestBase:99 - Clicking on 
+2023-10-16 14:57:13 INFO  TestBase:87 - Finding element using By.id: input-email
+2023-10-16 14:57:13 INFO  TestBase:93 - Found element using By.id: input-email
+2023-10-16 14:57:13 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (b8f8c2ae716494308b37e290196c8d90)] -> css selector: input[type='Submit']]
+2023-10-16 14:57:13 INFO  TestBase:87 - Finding element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 14:57:13 INFO  TestBase:93 - Found element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 14:57:13 INFO  TestBase:87 - Finding element using By.id: input-password
+2023-10-16 14:57:13 INFO  TestBase:165 - Getting text on My Account
+2023-10-16 14:57:13 INFO  TestBase:93 - Found element using By.id: input-password
+2023-10-16 14:57:13 INFO  TestBase:171 - Got text on My Account
+2023-10-16 14:57:13 INFO  TestBase:87 - Finding element using By.cssSelector: input[type='Submit']
+2023-10-16 14:57:13 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (fd5599356ac0d174390324d5648a0c34)] -> css selector: input[type='Submit']]
+2023-10-16 14:57:13 INFO  TestBase:87 - Finding element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 14:57:13 INFO  TestBase:93 - Found element using By.cssSelector: input[type='Submit']
+2023-10-16 14:57:13 INFO  TestBase:99 - Clicking on 
+2023-10-16 14:57:13 INFO  TestBase:93 - Found element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 14:57:13 INFO  TestBase:165 - Getting text on My Account
+2023-10-16 14:57:14 INFO  TestBase:171 - Got text on My Account
+2023-10-16 14:57:14 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (7ef987e648f71fbacab31a99e69e4f0f)] -> css selector: input[type='Submit']]
+2023-10-16 14:57:14 INFO  TestBase:87 - Finding element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 14:57:15 INFO  TestBase:93 - Found element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 14:57:15 INFO  TestBase:165 - Getting text on My Account
+2023-10-16 14:57:15 INFO  TestBase:171 - Got text on My Account
+2023-10-16 14:58:08 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 14:58:11 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 14:59:38 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 14:59:42 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 14:59:43 INFO  TestBase:13 - **********************Test Case started: validateContactUsEnquiryMessage****************************
+2023-10-16 14:59:43 INFO  TestBase:87 - Finding element using By.id: input-email
+2023-10-16 14:59:43 INFO  TestBase:93 - Found element using By.id: input-email
+2023-10-16 14:59:43 INFO  TestBase:87 - Finding element using By.id: input-password
+2023-10-16 14:59:43 INFO  TestBase:93 - Found element using By.id: input-password
+2023-10-16 14:59:43 INFO  TestBase:87 - Finding element using By.cssSelector: input[type='Submit']
+2023-10-16 14:59:43 INFO  TestBase:93 - Found element using By.cssSelector: input[type='Submit']
+2023-10-16 14:59:43 INFO  TestBase:99 - Clicking on 
+2023-10-16 14:59:44 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (027bbbf5b6eb7f3d3ba09883ffd71ceb)] -> css selector: input[type='Submit']]
+2023-10-16 14:59:44 INFO  TestBase:87 - Finding element using By.cssSelector: footer>div>div>div:nth-of-type(2)>ul>li:nth-of-type(1)>a
+2023-10-16 14:59:44 INFO  TestBase:93 - Found element using By.cssSelector: footer>div>div>div:nth-of-type(2)>ul>li:nth-of-type(1)>a
+2023-10-16 14:59:44 INFO  TestBase:99 - Clicking on Contact Us
+2023-10-16 14:59:45 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (027bbbf5b6eb7f3d3ba09883ffd71ceb)] -> css selector: footer>div>div>div:nth-of-type(2)>ul>li:nth-of-type(1)>a]
+2023-10-16 14:59:45 INFO  TestBase:87 - Finding element using By.cssSelector: #input-enquiry
+2023-10-16 14:59:45 INFO  TestBase:93 - Found element using By.cssSelector: #input-enquiry
+2023-10-16 14:59:45 INFO  TestBase:87 - Finding element using By.cssSelector: .btn-primary
+2023-10-16 14:59:45 INFO  TestBase:93 - Found element using By.cssSelector: .btn-primary
+2023-10-16 14:59:45 INFO  TestBase:99 - Clicking on 
+2023-10-16 14:59:46 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (027bbbf5b6eb7f3d3ba09883ffd71ceb)] -> css selector: .btn-primary]
+2023-10-16 14:59:46 INFO  TestBase:87 - Finding element using By.cssSelector: #content>p
+2023-10-16 14:59:46 INFO  TestBase:93 - Found element using By.cssSelector: #content>p
+2023-10-16 14:59:46 INFO  TestBase:165 - Getting text on Your enquiry has been successfully sent to the store owner!
+2023-10-16 14:59:46 INFO  TestBase:171 - Got text on Your enquiry has been successfully sent to the store owner!
+2023-10-16 14:59:46 INFO  TestBase:87 - Finding element using By.cssSelector: .btn-primary
+2023-10-16 14:59:46 INFO  TestBase:93 - Found element using By.cssSelector: .btn-primary
+2023-10-16 14:59:46 INFO  TestBase:99 - Clicking on Continue
+2023-10-16 14:59:53 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (027bbbf5b6eb7f3d3ba09883ffd71ceb)] -> css selector: .btn-primary]
+2023-10-16 14:59:53 INFO  TestBase:19 - **********************Test Case Passed: validateContactUsEnquiryMessage****************************
+2023-10-16 14:59:56 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 14:59:59 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:00:00 INFO  TestBase:13 - **********************Test Case started: validateEmptyCartMessage****************************
+2023-10-16 15:00:00 INFO  TestBase:87 - Finding element using By.id: input-email
+2023-10-16 15:00:00 INFO  TestBase:93 - Found element using By.id: input-email
+2023-10-16 15:00:00 INFO  TestBase:87 - Finding element using By.id: input-password
+2023-10-16 15:00:00 INFO  TestBase:93 - Found element using By.id: input-password
+2023-10-16 15:00:00 INFO  TestBase:87 - Finding element using By.cssSelector: input[type='Submit']
+2023-10-16 15:00:00 INFO  TestBase:93 - Found element using By.cssSelector: input[type='Submit']
+2023-10-16 15:00:00 INFO  TestBase:99 - Clicking on 
+2023-10-16 15:00:01 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (a15008c21f03cfe791eadd0007b3a898)] -> css selector: input[type='Submit']]
+2023-10-16 15:00:01 INFO  TestBase:87 - Finding element using By.cssSelector: div#top-links>ul>li:nth-of-type(4)>a>span
+2023-10-16 15:00:01 INFO  TestBase:93 - Found element using By.cssSelector: div#top-links>ul>li:nth-of-type(4)>a>span
+2023-10-16 15:00:01 INFO  TestBase:99 - Clicking on Shopping Cart
+2023-10-16 15:00:01 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (a15008c21f03cfe791eadd0007b3a898)] -> css selector: div#top-links>ul>li:nth-of-type(4)>a>span]
+2023-10-16 15:00:01 INFO  TestBase:87 - Finding element using By.cssSelector: #content>p
+2023-10-16 15:00:01 INFO  TestBase:93 - Found element using By.cssSelector: #content>p
+2023-10-16 15:00:01 INFO  TestBase:165 - Getting text on Your shopping cart is empty!
+2023-10-16 15:00:01 INFO  TestBase:171 - Got text on Your shopping cart is empty!
+2023-10-16 15:00:01 INFO  TestBase:87 - Finding element using By.cssSelector: a.btn-primary
+2023-10-16 15:00:01 INFO  TestBase:93 - Found element using By.cssSelector: a.btn-primary
+2023-10-16 15:00:01 INFO  TestBase:99 - Clicking on Continue
+2023-10-16 15:00:03 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (a15008c21f03cfe791eadd0007b3a898)] -> css selector: a.btn-primary]
+2023-10-16 15:00:03 INFO  TestBase:19 - **********************Test Case Passed: validateEmptyCartMessage****************************
+2023-10-16 15:00:05 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:00:08 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:00:09 INFO  TestBase:13 - **********************Test Case started: validateUserCanLogout****************************
+2023-10-16 15:00:09 INFO  TestBase:87 - Finding element using By.id: input-email
+2023-10-16 15:00:09 INFO  TestBase:93 - Found element using By.id: input-email
+2023-10-16 15:00:09 INFO  TestBase:87 - Finding element using By.id: input-password
+2023-10-16 15:00:09 INFO  TestBase:93 - Found element using By.id: input-password
+2023-10-16 15:00:09 INFO  TestBase:87 - Finding element using By.cssSelector: input[type='Submit']
+2023-10-16 15:00:09 INFO  TestBase:93 - Found element using By.cssSelector: input[type='Submit']
+2023-10-16 15:00:09 INFO  TestBase:99 - Clicking on 
+2023-10-16 15:00:10 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (5eacdfd8ca3b7f2c8e5a06dd9a162e1c)] -> css selector: input[type='Submit']]
+2023-10-16 15:00:10 INFO  TestBase:87 - Finding element using By.cssSelector: #column-right>div>a:nth-of-type(1)
+2023-10-16 15:00:10 INFO  TestBase:93 - Found element using By.cssSelector: #column-right>div>a:nth-of-type(1)
+2023-10-16 15:00:10 INFO  TestBase:87 - Finding element using By.cssSelector: #column-right>div>a:nth-of-type(2)
+2023-10-16 15:00:10 INFO  TestBase:93 - Found element using By.cssSelector: #column-right>div>a:nth-of-type(2)
+2023-10-16 15:00:10 INFO  TestBase:87 - Finding element using By.cssSelector: #column-right>div>a:nth-of-type(3)
+2023-10-16 15:00:10 INFO  TestBase:93 - Found element using By.cssSelector: #column-right>div>a:nth-of-type(3)
+2023-10-16 15:00:10 INFO  TestBase:87 - Finding element using By.cssSelector: #column-right>div>a:nth-of-type(4)
+2023-10-16 15:00:10 INFO  TestBase:93 - Found element using By.cssSelector: #column-right>div>a:nth-of-type(4)
+2023-10-16 15:00:10 INFO  TestBase:87 - Finding element using By.cssSelector: #column-right>div>a:nth-of-type(5)
+2023-10-16 15:00:10 INFO  TestBase:93 - Found element using By.cssSelector: #column-right>div>a:nth-of-type(5)
+2023-10-16 15:00:10 INFO  TestBase:87 - Finding element using By.cssSelector: #column-right>div>a:nth-of-type(6)
+2023-10-16 15:00:10 INFO  TestBase:93 - Found element using By.cssSelector: #column-right>div>a:nth-of-type(6)
+2023-10-16 15:00:10 INFO  TestBase:87 - Finding element using By.cssSelector: #column-right>div>a:nth-of-type(7)
+2023-10-16 15:00:10 INFO  TestBase:93 - Found element using By.cssSelector: #column-right>div>a:nth-of-type(7)
+2023-10-16 15:00:10 INFO  TestBase:87 - Finding element using By.cssSelector: #column-right>div>a:nth-of-type(8)
+2023-10-16 15:00:10 INFO  TestBase:93 - Found element using By.cssSelector: #column-right>div>a:nth-of-type(8)
+2023-10-16 15:00:10 INFO  TestBase:87 - Finding element using By.cssSelector: #column-right>div>a:nth-of-type(9)
+2023-10-16 15:00:10 INFO  TestBase:93 - Found element using By.cssSelector: #column-right>div>a:nth-of-type(9)
+2023-10-16 15:00:10 INFO  TestBase:87 - Finding element using By.cssSelector: #column-right>div>a:nth-of-type(10)
+2023-10-16 15:00:10 INFO  TestBase:93 - Found element using By.cssSelector: #column-right>div>a:nth-of-type(10)
+2023-10-16 15:00:10 INFO  TestBase:87 - Finding element using By.cssSelector: #column-right>div>a:nth-of-type(11)
+2023-10-16 15:00:10 INFO  TestBase:93 - Found element using By.cssSelector: #column-right>div>a:nth-of-type(11)
+2023-10-16 15:00:10 INFO  TestBase:87 - Finding element using By.cssSelector: #column-right>div>a:nth-of-type(12)
+2023-10-16 15:00:10 INFO  TestBase:93 - Found element using By.cssSelector: #column-right>div>a:nth-of-type(12)
+2023-10-16 15:00:10 INFO  TestBase:87 - Finding element using By.cssSelector: #column-right>div>a:nth-of-type(13)
+2023-10-16 15:00:10 INFO  TestBase:93 - Found element using By.cssSelector: #column-right>div>a:nth-of-type(13)
+2023-10-16 15:00:10 INFO  TestBase:87 - Finding element using By.cssSelector: div.list-group>a
+2023-10-16 15:00:11 INFO  TestBase:93 - Found element using By.cssSelector: div.list-group>a
+2023-10-16 15:00:11 INFO  TestBase:165 - Getting text on My Account
+2023-10-16 15:00:11 INFO  TestBase:171 - Got text on My Account
+2023-10-16 15:00:11 INFO  TestBase:165 - Getting text on Edit Account
+2023-10-16 15:00:11 INFO  TestBase:171 - Got text on Edit Account
+2023-10-16 15:00:11 INFO  TestBase:165 - Getting text on Password
+2023-10-16 15:00:11 INFO  TestBase:171 - Got text on Password
+2023-10-16 15:00:11 INFO  TestBase:165 - Getting text on Address Book
+2023-10-16 15:00:11 INFO  TestBase:171 - Got text on Address Book
+2023-10-16 15:00:11 INFO  TestBase:165 - Getting text on Wish List
+2023-10-16 15:00:11 INFO  TestBase:171 - Got text on Wish List
+2023-10-16 15:00:11 INFO  TestBase:165 - Getting text on Order History
+2023-10-16 15:00:11 INFO  TestBase:171 - Got text on Order History
+2023-10-16 15:00:11 INFO  TestBase:165 - Getting text on Downloads
+2023-10-16 15:00:11 INFO  TestBase:171 - Got text on Downloads
+2023-10-16 15:00:11 INFO  TestBase:165 - Getting text on Recurring payments
+2023-10-16 15:00:11 INFO  TestBase:171 - Got text on Recurring payments
+2023-10-16 15:00:11 INFO  TestBase:165 - Getting text on Reward Points
+2023-10-16 15:00:11 INFO  TestBase:171 - Got text on Reward Points
+2023-10-16 15:00:11 INFO  TestBase:165 - Getting text on Returns
+2023-10-16 15:00:11 INFO  TestBase:171 - Got text on Returns
+2023-10-16 15:00:11 INFO  TestBase:165 - Getting text on Transactions
+2023-10-16 15:00:11 INFO  TestBase:171 - Got text on Transactions
+2023-10-16 15:00:11 INFO  TestBase:165 - Getting text on Newsletter
+2023-10-16 15:00:11 INFO  TestBase:171 - Got text on Newsletter
+2023-10-16 15:00:11 INFO  TestBase:165 - Getting text on Logout
+2023-10-16 15:00:11 INFO  TestBase:171 - Got text on Logout
+2023-10-16 15:00:11 INFO  TestBase:99 - Clicking on Logout
+2023-10-16 15:00:12 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (5eacdfd8ca3b7f2c8e5a06dd9a162e1c)] -> css selector: div.list-group>a]
+2023-10-16 15:00:12 INFO  TestBase:87 - Finding element using By.cssSelector: #content>h1
+2023-10-16 15:00:12 INFO  TestBase:93 - Found element using By.cssSelector: #content>h1
+2023-10-16 15:00:12 INFO  TestBase:165 - Getting text on Account Logout
+2023-10-16 15:00:12 INFO  TestBase:171 - Got text on Account Logout
+2023-10-16 15:00:12 INFO  TestBase:87 - Finding element using By.cssSelector: a.btn-primary
+2023-10-16 15:00:12 INFO  TestBase:93 - Found element using By.cssSelector: a.btn-primary
+2023-10-16 15:00:12 INFO  TestBase:99 - Clicking on Continue
+2023-10-16 15:00:14 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (5eacdfd8ca3b7f2c8e5a06dd9a162e1c)] -> css selector: a.btn-primary]
+2023-10-16 15:00:14 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanLogout****************************
+2023-10-16 15:00:16 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:00:19 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:00:20 INFO  TestBase:13 - **********************Test Case started: validateUserCannotChangePwdWithInValidCredentials****************************
+2023-10-16 15:00:20 INFO  TestBase:87 - Finding element using By.cssSelector: div.form-group>a
+2023-10-16 15:00:20 INFO  TestBase:93 - Found element using By.cssSelector: div.form-group>a
+2023-10-16 15:00:20 INFO  TestBase:99 - Clicking on Forgotten Password
+2023-10-16 15:00:20 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (78ef3f850ba94f9a02a241bafbb5738b)] -> css selector: div.form-group>a]
+2023-10-16 15:00:20 INFO  TestBase:87 - Finding element using By.cssSelector: #input-email
+2023-10-16 15:00:21 INFO  TestBase:93 - Found element using By.cssSelector: #input-email
+2023-10-16 15:00:21 INFO  TestBase:87 - Finding element using By.cssSelector: input[value='Continue']
+2023-10-16 15:00:21 INFO  TestBase:93 - Found element using By.cssSelector: input[value='Continue']
+2023-10-16 15:00:21 INFO  TestBase:99 - Clicking on 
+2023-10-16 15:00:21 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (78ef3f850ba94f9a02a241bafbb5738b)] -> css selector: input[value='Continue']]
+2023-10-16 15:00:21 INFO  TestBase:87 - Finding element using By.cssSelector: div.alert-danger
+2023-10-16 15:00:21 INFO  TestBase:93 - Found element using By.cssSelector: div.alert-danger
+2023-10-16 15:00:21 INFO  TestBase:165 - Getting text on Warning: The E-Mail Address was not found in our records, please try again!
+2023-10-16 15:00:21 INFO  TestBase:171 - Got text on Warning: The E-Mail Address was not found in our records, please try again!
+2023-10-16 15:00:21 INFO  TestBase:19 - **********************Test Case Passed: validateUserCannotChangePwdWithInValidCredentials****************************
+2023-10-16 15:00:23 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:00:26 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:00:27 INFO  TestBase:13 - **********************Test Case started: validateUserCanAccessFwdPwdWithValidCredentials****************************
+2023-10-16 15:00:27 INFO  TestBase:87 - Finding element using By.cssSelector: div.form-group>a
+2023-10-16 15:00:27 INFO  TestBase:93 - Found element using By.cssSelector: div.form-group>a
+2023-10-16 15:00:27 INFO  TestBase:99 - Clicking on Forgotten Password
+2023-10-16 15:00:27 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (c5e5f72ffa9035dc43ea78133af670a8)] -> css selector: div.form-group>a]
+2023-10-16 15:00:27 INFO  TestBase:87 - Finding element using By.cssSelector: #input-email
+2023-10-16 15:00:27 INFO  TestBase:93 - Found element using By.cssSelector: #input-email
+2023-10-16 15:00:28 INFO  TestBase:87 - Finding element using By.cssSelector: input[value='Continue']
+2023-10-16 15:00:28 INFO  TestBase:93 - Found element using By.cssSelector: input[value='Continue']
+2023-10-16 15:00:28 INFO  TestBase:99 - Clicking on 
+2023-10-16 15:00:29 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (c5e5f72ffa9035dc43ea78133af670a8)] -> css selector: input[value='Continue']]
+2023-10-16 15:00:29 INFO  TestBase:87 - Finding element using By.cssSelector: .alert-success
+2023-10-16 15:00:29 INFO  TestBase:93 - Found element using By.cssSelector: .alert-success
+2023-10-16 15:00:29 INFO  TestBase:165 - Getting text on An email with a confirmation link has been sent your email address.
+2023-10-16 15:00:29 INFO  TestBase:171 - Got text on An email with a confirmation link has been sent your email address.
+2023-10-16 15:00:29 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanAccessFwdPwdWithValidCredentials****************************
+2023-10-16 15:00:31 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:00:34 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:00:35 INFO  TestBase:13 - **********************Test Case started: validateUserCanNotLoginWithInValidCredentials****************************
+2023-10-16 15:00:35 INFO  TestBase:87 - Finding element using By.id: input-email
+2023-10-16 15:00:35 INFO  TestBase:93 - Found element using By.id: input-email
+2023-10-16 15:00:35 INFO  TestBase:87 - Finding element using By.id: input-password
+2023-10-16 15:00:35 INFO  TestBase:93 - Found element using By.id: input-password
+2023-10-16 15:00:35 INFO  TestBase:87 - Finding element using By.cssSelector: input[type='Submit']
+2023-10-16 15:00:35 INFO  TestBase:93 - Found element using By.cssSelector: input[type='Submit']
+2023-10-16 15:00:35 INFO  TestBase:99 - Clicking on 
+2023-10-16 15:00:36 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (720213df3024f6c90912808d7f4b5917)] -> css selector: input[type='Submit']]
+2023-10-16 15:00:36 INFO  TestBase:87 - Finding element using By.cssSelector: .alert-danger
+2023-10-16 15:00:36 INFO  TestBase:93 - Found element using By.cssSelector: .alert-danger
+2023-10-16 15:00:36 INFO  TestBase:165 - Getting text on Warning: No match for E-Mail Address and/or Password.
+2023-10-16 15:00:36 INFO  TestBase:171 - Got text on Warning: No match for E-Mail Address and/or Password.
+2023-10-16 15:00:36 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanNotLoginWithInValidCredentials****************************
+2023-10-16 15:00:38 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:00:41 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:00:42 INFO  TestBase:13 - **********************Test Case started: validateAccountDownloadsMessage****************************
+2023-10-16 15:00:42 INFO  TestBase:87 - Finding element using By.id: input-email
+2023-10-16 15:00:42 INFO  TestBase:93 - Found element using By.id: input-email
+2023-10-16 15:00:42 INFO  TestBase:87 - Finding element using By.id: input-password
+2023-10-16 15:00:42 INFO  TestBase:93 - Found element using By.id: input-password
+2023-10-16 15:00:42 INFO  TestBase:87 - Finding element using By.cssSelector: input[type='Submit']
+2023-10-16 15:00:42 INFO  TestBase:93 - Found element using By.cssSelector: input[type='Submit']
+2023-10-16 15:00:42 INFO  TestBase:99 - Clicking on 
+2023-10-16 15:00:43 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (8c19a51e6762381a18721adb3c9c7b61)] -> css selector: input[type='Submit']]
+2023-10-16 15:00:43 INFO  TestBase:87 - Finding element using By.cssSelector: div.list-group>a
+2023-10-16 15:00:43 INFO  TestBase:93 - Found element using By.cssSelector: div.list-group>a
+2023-10-16 15:00:43 INFO  TestBase:165 - Getting text on My Account
+2023-10-16 15:00:43 INFO  TestBase:171 - Got text on My Account
+2023-10-16 15:00:43 INFO  TestBase:165 - Getting text on Edit Account
+2023-10-16 15:00:43 INFO  TestBase:171 - Got text on Edit Account
+2023-10-16 15:00:43 INFO  TestBase:165 - Getting text on Password
+2023-10-16 15:00:43 INFO  TestBase:171 - Got text on Password
+2023-10-16 15:00:43 INFO  TestBase:165 - Getting text on Address Book
+2023-10-16 15:00:43 INFO  TestBase:171 - Got text on Address Book
+2023-10-16 15:00:43 INFO  TestBase:165 - Getting text on Wish List
+2023-10-16 15:00:43 INFO  TestBase:171 - Got text on Wish List
+2023-10-16 15:00:43 INFO  TestBase:165 - Getting text on Order History
+2023-10-16 15:00:43 INFO  TestBase:171 - Got text on Order History
+2023-10-16 15:00:43 INFO  TestBase:165 - Getting text on Downloads
+2023-10-16 15:00:43 INFO  TestBase:171 - Got text on Downloads
+2023-10-16 15:00:43 INFO  TestBase:99 - Clicking on Downloads
+2023-10-16 15:00:44 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (8c19a51e6762381a18721adb3c9c7b61)] -> css selector: div.list-group>a]
+2023-10-16 15:00:44 INFO  TestBase:87 - Finding element using By.cssSelector: #content>p
+2023-10-16 15:00:44 INFO  TestBase:93 - Found element using By.cssSelector: #content>p
+2023-10-16 15:00:44 INFO  TestBase:165 - Getting text on You have not made any previous downloadable orders!
+2023-10-16 15:00:44 INFO  TestBase:171 - Got text on You have not made any previous downloadable orders!
+2023-10-16 15:00:44 INFO  TestBase:87 - Finding element using By.cssSelector: a.btn-primary
+2023-10-16 15:00:44 INFO  TestBase:93 - Found element using By.cssSelector: a.btn-primary
+2023-10-16 15:00:44 INFO  TestBase:99 - Clicking on Continue
+2023-10-16 15:00:44 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (8c19a51e6762381a18721adb3c9c7b61)] -> css selector: a.btn-primary]
+2023-10-16 15:00:44 INFO  TestBase:87 - Finding element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 15:00:44 INFO  TestBase:93 - Found element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 15:00:44 INFO  TestBase:165 - Getting text on My Account
+2023-10-16 15:00:44 INFO  TestBase:171 - Got text on My Account
+2023-10-16 15:00:44 INFO  TestBase:19 - **********************Test Case Passed: validateAccountDownloadsMessage****************************
+2023-10-16 15:00:47 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:00:51 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:00:51 INFO  TestBase:13 - **********************Test Case started: validateLoginWithMultipleCredentials****************************
+2023-10-16 15:00:51 INFO  TestBase:87 - Finding element using By.id: input-email
+2023-10-16 15:00:51 INFO  TestBase:93 - Found element using By.id: input-email
+2023-10-16 15:00:51 INFO  TestBase:87 - Finding element using By.id: input-password
+2023-10-16 15:00:51 INFO  TestBase:93 - Found element using By.id: input-password
+2023-10-16 15:00:51 INFO  TestBase:87 - Finding element using By.cssSelector: input[type='Submit']
+2023-10-16 15:00:51 INFO  TestBase:93 - Found element using By.cssSelector: input[type='Submit']
+2023-10-16 15:00:52 INFO  TestBase:99 - Clicking on 
+2023-10-16 15:00:52 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (03babea05a6b13e154c4de54a87a137f)] -> css selector: input[type='Submit']]
+2023-10-16 15:00:52 INFO  TestBase:87 - Finding element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 15:00:52 INFO  TestBase:93 - Found element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 15:00:52 INFO  TestBase:165 - Getting text on My Account
+2023-10-16 15:00:52 INFO  TestBase:171 - Got text on My Account
+2023-10-16 15:00:52 INFO  TestBase:19 - **********************Test Case Passed: validateLoginWithMultipleCredentials****************************
+2023-10-16 15:00:55 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:00:58 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:00:59 INFO  TestBase:13 - **********************Test Case started: validateLoginWithMultipleCredentials****************************
+2023-10-16 15:00:59 INFO  TestBase:87 - Finding element using By.id: input-email
+2023-10-16 15:00:59 INFO  TestBase:93 - Found element using By.id: input-email
+2023-10-16 15:00:59 INFO  TestBase:87 - Finding element using By.id: input-password
+2023-10-16 15:00:59 INFO  TestBase:93 - Found element using By.id: input-password
+2023-10-16 15:00:59 INFO  TestBase:87 - Finding element using By.cssSelector: input[type='Submit']
+2023-10-16 15:00:59 INFO  TestBase:93 - Found element using By.cssSelector: input[type='Submit']
+2023-10-16 15:00:59 INFO  TestBase:99 - Clicking on 
+2023-10-16 15:01:01 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (18a50cb9db18e6193d036998c68226af)] -> css selector: input[type='Submit']]
+2023-10-16 15:01:01 INFO  TestBase:87 - Finding element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 15:01:01 INFO  TestBase:93 - Found element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 15:01:01 INFO  TestBase:165 - Getting text on My Account
+2023-10-16 15:01:01 INFO  TestBase:171 - Got text on My Account
+2023-10-16 15:01:01 INFO  TestBase:19 - **********************Test Case Passed: validateLoginWithMultipleCredentials****************************
+2023-10-16 15:01:03 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:01:07 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:01:08 INFO  TestBase:13 - **********************Test Case started: validateLoginWithMultipleCredentials****************************
+2023-10-16 15:01:08 INFO  TestBase:87 - Finding element using By.id: input-email
+2023-10-16 15:01:08 INFO  TestBase:93 - Found element using By.id: input-email
+2023-10-16 15:01:08 INFO  TestBase:87 - Finding element using By.id: input-password
+2023-10-16 15:01:08 INFO  TestBase:93 - Found element using By.id: input-password
+2023-10-16 15:01:08 INFO  TestBase:87 - Finding element using By.cssSelector: input[type='Submit']
+2023-10-16 15:01:08 INFO  TestBase:93 - Found element using By.cssSelector: input[type='Submit']
+2023-10-16 15:01:08 INFO  TestBase:99 - Clicking on 
+2023-10-16 15:01:09 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (b7fd5038dd4c8cb105555deb67df1a6a)] -> css selector: input[type='Submit']]
+2023-10-16 15:01:09 INFO  TestBase:87 - Finding element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 15:01:09 INFO  TestBase:93 - Found element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 15:01:09 INFO  TestBase:165 - Getting text on My Account
+2023-10-16 15:01:09 INFO  TestBase:171 - Got text on My Account
+2023-10-16 15:01:09 INFO  TestBase:19 - **********************Test Case Passed: validateLoginWithMultipleCredentials****************************
+2023-10-16 15:01:11 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:01:15 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:01:16 INFO  TestBase:13 - **********************Test Case started: validatePaymentsMessage****************************
+2023-10-16 15:01:16 INFO  TestBase:87 - Finding element using By.id: input-email
+2023-10-16 15:01:16 INFO  TestBase:93 - Found element using By.id: input-email
+2023-10-16 15:01:16 INFO  TestBase:87 - Finding element using By.id: input-password
+2023-10-16 15:01:16 INFO  TestBase:93 - Found element using By.id: input-password
+2023-10-16 15:01:16 INFO  TestBase:87 - Finding element using By.cssSelector: input[type='Submit']
+2023-10-16 15:01:16 INFO  TestBase:93 - Found element using By.cssSelector: input[type='Submit']
+2023-10-16 15:01:16 INFO  TestBase:99 - Clicking on 
+2023-10-16 15:01:17 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (90c44d8dcbcff85f1e4f29b4f43fd8fa)] -> css selector: input[type='Submit']]
+2023-10-16 15:01:17 INFO  TestBase:87 - Finding element using By.cssSelector: div.list-group>a
+2023-10-16 15:01:17 INFO  TestBase:93 - Found element using By.cssSelector: div.list-group>a
+2023-10-16 15:01:17 INFO  TestBase:165 - Getting text on My Account
+2023-10-16 15:01:17 INFO  TestBase:171 - Got text on My Account
+2023-10-16 15:01:17 INFO  TestBase:165 - Getting text on Edit Account
+2023-10-16 15:01:17 INFO  TestBase:171 - Got text on Edit Account
+2023-10-16 15:01:17 INFO  TestBase:165 - Getting text on Password
+2023-10-16 15:01:17 INFO  TestBase:171 - Got text on Password
+2023-10-16 15:01:17 INFO  TestBase:165 - Getting text on Address Book
+2023-10-16 15:01:17 INFO  TestBase:171 - Got text on Address Book
+2023-10-16 15:01:17 INFO  TestBase:165 - Getting text on Wish List
+2023-10-16 15:01:17 INFO  TestBase:171 - Got text on Wish List
+2023-10-16 15:01:17 INFO  TestBase:165 - Getting text on Order History
+2023-10-16 15:01:17 INFO  TestBase:171 - Got text on Order History
+2023-10-16 15:01:17 INFO  TestBase:165 - Getting text on Downloads
+2023-10-16 15:01:17 INFO  TestBase:171 - Got text on Downloads
+2023-10-16 15:01:17 INFO  TestBase:165 - Getting text on Recurring payments
+2023-10-16 15:01:17 INFO  TestBase:171 - Got text on Recurring payments
+2023-10-16 15:01:17 INFO  TestBase:99 - Clicking on Recurring payments
+2023-10-16 15:01:17 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (90c44d8dcbcff85f1e4f29b4f43fd8fa)] -> css selector: div.list-group>a]
+2023-10-16 15:01:17 INFO  TestBase:87 - Finding element using By.cssSelector: #content>p
+2023-10-16 15:01:17 INFO  TestBase:93 - Found element using By.cssSelector: #content>p
+2023-10-16 15:01:17 INFO  TestBase:165 - Getting text on No recurring payments found!
+2023-10-16 15:01:17 INFO  TestBase:171 - Got text on No recurring payments found!
+2023-10-16 15:01:17 INFO  TestBase:87 - Finding element using By.cssSelector: a.btn-primary
+2023-10-16 15:01:18 INFO  TestBase:93 - Found element using By.cssSelector: a.btn-primary
+2023-10-16 15:01:18 INFO  TestBase:99 - Clicking on Continue
+2023-10-16 15:01:18 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (90c44d8dcbcff85f1e4f29b4f43fd8fa)] -> css selector: a.btn-primary]
+2023-10-16 15:01:18 INFO  TestBase:87 - Finding element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 15:01:18 INFO  TestBase:93 - Found element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 15:01:18 INFO  TestBase:165 - Getting text on My Account
+2023-10-16 15:01:18 INFO  TestBase:171 - Got text on My Account
+2023-10-16 15:01:18 INFO  TestBase:19 - **********************Test Case Passed: validatePaymentsMessage****************************
+2023-10-16 15:01:21 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:01:26 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:01:28 INFO  TestBase:13 - **********************Test Case started: validateProductReturnMessage****************************
+2023-10-16 15:01:28 INFO  TestBase:87 - Finding element using By.id: input-email
+2023-10-16 15:01:28 INFO  TestBase:93 - Found element using By.id: input-email
+2023-10-16 15:01:28 INFO  TestBase:87 - Finding element using By.id: input-password
+2023-10-16 15:01:28 INFO  TestBase:93 - Found element using By.id: input-password
+2023-10-16 15:01:28 INFO  TestBase:87 - Finding element using By.cssSelector: input[type='Submit']
+2023-10-16 15:01:28 INFO  TestBase:93 - Found element using By.cssSelector: input[type='Submit']
+2023-10-16 15:01:28 INFO  TestBase:99 - Clicking on 
+2023-10-16 15:01:29 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (01d94e9ed816f686c549ddc3cc720bec)] -> css selector: input[type='Submit']]
+2023-10-16 15:01:29 INFO  TestBase:87 - Finding element using By.cssSelector: div.list-group>a
+2023-10-16 15:01:29 INFO  TestBase:93 - Found element using By.cssSelector: div.list-group>a
+2023-10-16 15:01:29 INFO  TestBase:165 - Getting text on My Account
+2023-10-16 15:01:29 INFO  TestBase:171 - Got text on My Account
+2023-10-16 15:01:29 INFO  TestBase:165 - Getting text on Edit Account
+2023-10-16 15:01:29 INFO  TestBase:171 - Got text on Edit Account
+2023-10-16 15:01:29 INFO  TestBase:165 - Getting text on Password
+2023-10-16 15:01:29 INFO  TestBase:171 - Got text on Password
+2023-10-16 15:01:29 INFO  TestBase:165 - Getting text on Address Book
+2023-10-16 15:01:29 INFO  TestBase:171 - Got text on Address Book
+2023-10-16 15:01:29 INFO  TestBase:165 - Getting text on Wish List
+2023-10-16 15:01:29 INFO  TestBase:171 - Got text on Wish List
+2023-10-16 15:01:29 INFO  TestBase:165 - Getting text on Order History
+2023-10-16 15:01:29 INFO  TestBase:171 - Got text on Order History
+2023-10-16 15:01:29 INFO  TestBase:165 - Getting text on Downloads
+2023-10-16 15:01:29 INFO  TestBase:171 - Got text on Downloads
+2023-10-16 15:01:29 INFO  TestBase:165 - Getting text on Recurring payments
+2023-10-16 15:01:29 INFO  TestBase:171 - Got text on Recurring payments
+2023-10-16 15:01:29 INFO  TestBase:165 - Getting text on Reward Points
+2023-10-16 15:01:29 INFO  TestBase:171 - Got text on Reward Points
+2023-10-16 15:01:29 INFO  TestBase:165 - Getting text on Returns
+2023-10-16 15:01:29 INFO  TestBase:171 - Got text on Returns
+2023-10-16 15:01:29 INFO  TestBase:99 - Clicking on Returns
+2023-10-16 15:01:30 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (01d94e9ed816f686c549ddc3cc720bec)] -> css selector: div.list-group>a]
+2023-10-16 15:01:30 INFO  TestBase:87 - Finding element using By.cssSelector: #content>p
+2023-10-16 15:01:30 INFO  TestBase:93 - Found element using By.cssSelector: #content>p
+2023-10-16 15:01:30 INFO  TestBase:165 - Getting text on You have not made any previous returns!
+2023-10-16 15:01:30 INFO  TestBase:171 - Got text on You have not made any previous returns!
+2023-10-16 15:01:30 INFO  TestBase:87 - Finding element using By.cssSelector: a.btn-primary
+2023-10-16 15:01:30 INFO  TestBase:93 - Found element using By.cssSelector: a.btn-primary
+2023-10-16 15:01:30 INFO  TestBase:99 - Clicking on Continue
+2023-10-16 15:01:31 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (01d94e9ed816f686c549ddc3cc720bec)] -> css selector: a.btn-primary]
+2023-10-16 15:01:31 INFO  TestBase:87 - Finding element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 15:01:31 INFO  TestBase:93 - Found element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 15:01:31 INFO  TestBase:165 - Getting text on My Account
+2023-10-16 15:01:31 INFO  TestBase:171 - Got text on My Account
+2023-10-16 15:01:31 INFO  TestBase:19 - **********************Test Case Passed: validateProductReturnMessage****************************
+2023-10-16 15:01:33 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:01:37 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:01:38 INFO  TestBase:13 - **********************Test Case started: validateTransactionsPageMessage****************************
+2023-10-16 15:01:38 INFO  TestBase:87 - Finding element using By.id: input-email
+2023-10-16 15:01:38 INFO  TestBase:93 - Found element using By.id: input-email
+2023-10-16 15:01:38 INFO  TestBase:87 - Finding element using By.id: input-password
+2023-10-16 15:01:38 INFO  TestBase:93 - Found element using By.id: input-password
+2023-10-16 15:01:38 INFO  TestBase:87 - Finding element using By.cssSelector: input[type='Submit']
+2023-10-16 15:01:38 INFO  TestBase:93 - Found element using By.cssSelector: input[type='Submit']
+2023-10-16 15:01:38 INFO  TestBase:99 - Clicking on 
+2023-10-16 15:01:41 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (7ba9b870d015c0e9e3788feabb749faf)] -> css selector: input[type='Submit']]
+2023-10-16 15:01:41 INFO  TestBase:87 - Finding element using By.cssSelector: div.list-group>a
+2023-10-16 15:01:41 INFO  TestBase:93 - Found element using By.cssSelector: div.list-group>a
+2023-10-16 15:01:41 INFO  TestBase:165 - Getting text on My Account
+2023-10-16 15:01:41 INFO  TestBase:171 - Got text on My Account
+2023-10-16 15:01:41 INFO  TestBase:165 - Getting text on Edit Account
+2023-10-16 15:01:41 INFO  TestBase:171 - Got text on Edit Account
+2023-10-16 15:01:41 INFO  TestBase:165 - Getting text on Password
+2023-10-16 15:01:41 INFO  TestBase:171 - Got text on Password
+2023-10-16 15:01:41 INFO  TestBase:165 - Getting text on Address Book
+2023-10-16 15:01:41 INFO  TestBase:171 - Got text on Address Book
+2023-10-16 15:01:41 INFO  TestBase:165 - Getting text on Wish List
+2023-10-16 15:01:41 INFO  TestBase:171 - Got text on Wish List
+2023-10-16 15:01:41 INFO  TestBase:165 - Getting text on Order History
+2023-10-16 15:01:41 INFO  TestBase:171 - Got text on Order History
+2023-10-16 15:01:41 INFO  TestBase:165 - Getting text on Downloads
+2023-10-16 15:01:41 INFO  TestBase:171 - Got text on Downloads
+2023-10-16 15:01:41 INFO  TestBase:165 - Getting text on Recurring payments
+2023-10-16 15:01:41 INFO  TestBase:171 - Got text on Recurring payments
+2023-10-16 15:01:41 INFO  TestBase:165 - Getting text on Reward Points
+2023-10-16 15:01:41 INFO  TestBase:171 - Got text on Reward Points
+2023-10-16 15:01:41 INFO  TestBase:165 - Getting text on Returns
+2023-10-16 15:01:41 INFO  TestBase:171 - Got text on Returns
+2023-10-16 15:01:41 INFO  TestBase:165 - Getting text on Transactions
+2023-10-16 15:01:41 INFO  TestBase:171 - Got text on Transactions
+2023-10-16 15:01:41 INFO  TestBase:99 - Clicking on Transactions
+2023-10-16 15:01:42 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (7ba9b870d015c0e9e3788feabb749faf)] -> css selector: div.list-group>a]
+2023-10-16 15:01:42 INFO  TestBase:87 - Finding element using By.cssSelector: #content>p
+2023-10-16 15:01:42 INFO  TestBase:93 - Found element using By.cssSelector: #content>p
+2023-10-16 15:01:42 INFO  TestBase:165 - Getting text on Your current balance is: $0.00.
+2023-10-16 15:01:42 INFO  TestBase:171 - Got text on Your current balance is: $0.00.
+2023-10-16 15:01:42 INFO  TestBase:87 - Finding element using By.cssSelector: a.btn-primary
+2023-10-16 15:01:42 INFO  TestBase:93 - Found element using By.cssSelector: a.btn-primary
+2023-10-16 15:01:42 INFO  TestBase:99 - Clicking on Continue
+2023-10-16 15:01:42 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (7ba9b870d015c0e9e3788feabb749faf)] -> css selector: a.btn-primary]
+2023-10-16 15:01:42 INFO  TestBase:87 - Finding element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 15:01:42 INFO  TestBase:93 - Found element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 15:01:42 INFO  TestBase:165 - Getting text on My Account
+2023-10-16 15:01:42 INFO  TestBase:171 - Got text on My Account
+2023-10-16 15:01:42 INFO  TestBase:19 - **********************Test Case Passed: validateTransactionsPageMessage****************************
+2023-10-16 15:01:46 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:01:51 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:01:52 INFO  TestBase:13 - **********************Test Case started: validateUserCanChangePassword****************************
+2023-10-16 15:01:52 INFO  TestBase:87 - Finding element using By.id: input-email
+2023-10-16 15:01:52 INFO  TestBase:93 - Found element using By.id: input-email
+2023-10-16 15:01:52 INFO  TestBase:87 - Finding element using By.id: input-password
+2023-10-16 15:01:52 INFO  TestBase:93 - Found element using By.id: input-password
+2023-10-16 15:01:52 INFO  TestBase:87 - Finding element using By.cssSelector: input[type='Submit']
+2023-10-16 15:01:52 INFO  TestBase:93 - Found element using By.cssSelector: input[type='Submit']
+2023-10-16 15:01:52 INFO  TestBase:99 - Clicking on 
+2023-10-16 15:01:53 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (fd63b4171496615b7d3a0163b076c634)] -> css selector: input[type='Submit']]
+2023-10-16 15:01:53 INFO  TestBase:87 - Finding element using By.cssSelector: div.list-group>a
+2023-10-16 15:01:53 INFO  TestBase:93 - Found element using By.cssSelector: div.list-group>a
+2023-10-16 15:01:53 INFO  TestBase:165 - Getting text on My Account
+2023-10-16 15:01:53 INFO  TestBase:171 - Got text on My Account
+2023-10-16 15:01:53 INFO  TestBase:165 - Getting text on Edit Account
+2023-10-16 15:01:53 INFO  TestBase:171 - Got text on Edit Account
+2023-10-16 15:01:53 INFO  TestBase:165 - Getting text on Password
+2023-10-16 15:01:53 INFO  TestBase:171 - Got text on Password
+2023-10-16 15:01:53 INFO  TestBase:99 - Clicking on Password
+2023-10-16 15:01:54 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (fd63b4171496615b7d3a0163b076c634)] -> css selector: div.list-group>a]
+2023-10-16 15:01:54 INFO  TestBase:87 - Finding element using By.cssSelector: #input-password
+2023-10-16 15:01:54 INFO  TestBase:93 - Found element using By.cssSelector: #input-password
+2023-10-16 15:01:54 INFO  TestBase:87 - Finding element using By.cssSelector: #input-confirm
+2023-10-16 15:01:54 INFO  TestBase:93 - Found element using By.cssSelector: #input-confirm
+2023-10-16 15:01:54 INFO  TestBase:87 - Finding element using By.cssSelector: .btn-primary
+2023-10-16 15:01:54 INFO  TestBase:93 - Found element using By.cssSelector: .btn-primary
+2023-10-16 15:01:54 INFO  TestBase:99 - Clicking on 
+2023-10-16 15:01:55 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (fd63b4171496615b7d3a0163b076c634)] -> css selector: .btn-primary]
+2023-10-16 15:01:55 INFO  TestBase:87 - Finding element using By.cssSelector: div.alert-success
+2023-10-16 15:01:55 INFO  TestBase:93 - Found element using By.cssSelector: div.alert-success
+2023-10-16 15:01:55 INFO  TestBase:165 - Getting text on Success: Your password has been successfully updated.
+2023-10-16 15:01:55 INFO  TestBase:171 - Got text on Success: Your password has been successfully updated.
+2023-10-16 15:01:55 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanChangePassword****************************
+2023-10-16 15:01:57 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:02:01 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:02:02 INFO  TestBase:13 - **********************Test Case started: validateUserCanLoginWithValidCredentials****************************
+2023-10-16 15:02:02 INFO  TestBase:87 - Finding element using By.id: input-email
+2023-10-16 15:02:02 INFO  TestBase:93 - Found element using By.id: input-email
+2023-10-16 15:02:02 INFO  TestBase:87 - Finding element using By.id: input-password
+2023-10-16 15:02:02 INFO  TestBase:93 - Found element using By.id: input-password
+2023-10-16 15:02:02 INFO  TestBase:87 - Finding element using By.cssSelector: input[type='Submit']
+2023-10-16 15:02:02 INFO  TestBase:93 - Found element using By.cssSelector: input[type='Submit']
+2023-10-16 15:02:02 INFO  TestBase:99 - Clicking on 
+2023-10-16 15:02:04 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (bbbff5fd886cbbbecd2ce14ce8cd17f2)] -> css selector: input[type='Submit']]
+2023-10-16 15:02:04 INFO  TestBase:87 - Finding element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 15:02:04 INFO  TestBase:93 - Found element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 15:02:04 INFO  TestBase:165 - Getting text on My Account
+2023-10-16 15:02:04 INFO  TestBase:171 - Got text on My Account
+2023-10-16 15:02:04 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanLoginWithValidCredentials****************************
+2023-10-16 15:02:06 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:02:09 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:02:10 INFO  TestBase:13 - **********************Test Case started: validateUserCanSubscribeNewsLetter****************************
+2023-10-16 15:02:10 INFO  TestBase:87 - Finding element using By.id: input-email
+2023-10-16 15:02:10 INFO  TestBase:93 - Found element using By.id: input-email
+2023-10-16 15:02:10 INFO  TestBase:87 - Finding element using By.id: input-password
+2023-10-16 15:02:10 INFO  TestBase:93 - Found element using By.id: input-password
+2023-10-16 15:02:10 INFO  TestBase:87 - Finding element using By.cssSelector: input[type='Submit']
+2023-10-16 15:02:10 INFO  TestBase:93 - Found element using By.cssSelector: input[type='Submit']
+2023-10-16 15:02:10 INFO  TestBase:99 - Clicking on 
+2023-10-16 15:02:11 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (404ed369a8194a3aefe7e0c2132ad7ee)] -> css selector: input[type='Submit']]
+2023-10-16 15:02:11 INFO  TestBase:87 - Finding element using By.cssSelector: div.list-group>a
+2023-10-16 15:02:11 INFO  TestBase:93 - Found element using By.cssSelector: div.list-group>a
+2023-10-16 15:02:11 INFO  TestBase:165 - Getting text on My Account
+2023-10-16 15:02:11 INFO  TestBase:171 - Got text on My Account
+2023-10-16 15:02:11 INFO  TestBase:165 - Getting text on Edit Account
+2023-10-16 15:02:11 INFO  TestBase:171 - Got text on Edit Account
+2023-10-16 15:02:11 INFO  TestBase:165 - Getting text on Password
+2023-10-16 15:02:11 INFO  TestBase:171 - Got text on Password
+2023-10-16 15:02:11 INFO  TestBase:165 - Getting text on Address Book
+2023-10-16 15:02:11 INFO  TestBase:171 - Got text on Address Book
+2023-10-16 15:02:12 INFO  TestBase:165 - Getting text on Wish List
+2023-10-16 15:02:12 INFO  TestBase:171 - Got text on Wish List
+2023-10-16 15:02:12 INFO  TestBase:165 - Getting text on Order History
+2023-10-16 15:02:12 INFO  TestBase:171 - Got text on Order History
+2023-10-16 15:02:12 INFO  TestBase:165 - Getting text on Downloads
+2023-10-16 15:02:12 INFO  TestBase:171 - Got text on Downloads
+2023-10-16 15:02:12 INFO  TestBase:165 - Getting text on Recurring payments
+2023-10-16 15:02:12 INFO  TestBase:171 - Got text on Recurring payments
+2023-10-16 15:02:12 INFO  TestBase:165 - Getting text on Reward Points
+2023-10-16 15:02:12 INFO  TestBase:171 - Got text on Reward Points
+2023-10-16 15:02:12 INFO  TestBase:165 - Getting text on Returns
+2023-10-16 15:02:12 INFO  TestBase:171 - Got text on Returns
+2023-10-16 15:02:12 INFO  TestBase:165 - Getting text on Transactions
+2023-10-16 15:02:12 INFO  TestBase:171 - Got text on Transactions
+2023-10-16 15:02:12 INFO  TestBase:165 - Getting text on Newsletter
+2023-10-16 15:02:12 INFO  TestBase:171 - Got text on Newsletter
+2023-10-16 15:02:12 INFO  TestBase:99 - Clicking on Newsletter
+2023-10-16 15:02:12 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (404ed369a8194a3aefe7e0c2132ad7ee)] -> css selector: div.list-group>a]
+2023-10-16 15:02:12 INFO  TestBase:87 - Finding element using By.cssSelector: label.radio-inline:first-of-type>input
+2023-10-16 15:02:12 INFO  TestBase:93 - Found element using By.cssSelector: label.radio-inline:first-of-type>input
+2023-10-16 15:02:12 INFO  TestBase:99 - Clicking on 
+2023-10-16 15:02:12 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (404ed369a8194a3aefe7e0c2132ad7ee)] -> css selector: label.radio-inline:first-of-type>input]
+2023-10-16 15:02:12 INFO  TestBase:87 - Finding element using By.cssSelector: label.radio-inline:first-of-type>input
+2023-10-16 15:02:12 INFO  TestBase:93 - Found element using By.cssSelector: label.radio-inline:first-of-type>input
+2023-10-16 15:02:12 INFO  TestBase:99 - Clicking on 
+2023-10-16 15:02:12 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (404ed369a8194a3aefe7e0c2132ad7ee)] -> css selector: label.radio-inline:first-of-type>input]
+2023-10-16 15:02:12 INFO  TestBase:87 - Finding element using By.cssSelector: input.btn-primary
+2023-10-16 15:02:12 INFO  TestBase:93 - Found element using By.cssSelector: input.btn-primary
+2023-10-16 15:02:12 INFO  TestBase:99 - Clicking on 
+2023-10-16 15:02:13 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (404ed369a8194a3aefe7e0c2132ad7ee)] -> css selector: input.btn-primary]
+2023-10-16 15:02:13 INFO  TestBase:87 - Finding element using By.cssSelector: div.alert-success
+2023-10-16 15:02:13 INFO  TestBase:93 - Found element using By.cssSelector: div.alert-success
+2023-10-16 15:02:13 INFO  TestBase:165 - Getting text on Success: Your newsletter subscription has been successfully updated!
+2023-10-16 15:02:13 INFO  TestBase:171 - Got text on Success: Your newsletter subscription has been successfully updated!
+2023-10-16 15:02:13 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanSubscribeNewsLetter****************************
+2023-10-16 15:02:16 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:02:19 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:02:20 INFO  TestBase:13 - **********************Test Case started: validateUserCanUpdatePersonalInfo****************************
+2023-10-16 15:02:20 INFO  TestBase:87 - Finding element using By.id: input-email
+2023-10-16 15:02:20 INFO  TestBase:93 - Found element using By.id: input-email
+2023-10-16 15:02:20 INFO  TestBase:87 - Finding element using By.id: input-password
+2023-10-16 15:02:20 INFO  TestBase:93 - Found element using By.id: input-password
+2023-10-16 15:02:20 INFO  TestBase:87 - Finding element using By.cssSelector: input[type='Submit']
+2023-10-16 15:02:20 INFO  TestBase:93 - Found element using By.cssSelector: input[type='Submit']
+2023-10-16 15:02:20 INFO  TestBase:99 - Clicking on 
+2023-10-16 15:02:21 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (acff606b967ddc8b2561672cb729e690)] -> css selector: input[type='Submit']]
+2023-10-16 15:02:21 INFO  TestBase:87 - Finding element using By.cssSelector: div.list-group>a
+2023-10-16 15:02:21 INFO  TestBase:93 - Found element using By.cssSelector: div.list-group>a
+2023-10-16 15:02:21 INFO  TestBase:165 - Getting text on My Account
+2023-10-16 15:02:21 INFO  TestBase:171 - Got text on My Account
+2023-10-16 15:02:21 INFO  TestBase:165 - Getting text on Edit Account
+2023-10-16 15:02:21 INFO  TestBase:171 - Got text on Edit Account
+2023-10-16 15:02:21 INFO  TestBase:99 - Clicking on Edit Account
+2023-10-16 15:02:22 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (acff606b967ddc8b2561672cb729e690)] -> css selector: div.list-group>a]
+2023-10-16 15:02:22 INFO  TestBase:87 - Finding element using By.id: input-firstname
+2023-10-16 15:02:22 INFO  TestBase:93 - Found element using By.id: input-firstname
+2023-10-16 15:02:22 INFO  TestBase:87 - Finding element using By.id: input-firstname
+2023-10-16 15:02:22 INFO  TestBase:93 - Found element using By.id: input-firstname
+2023-10-16 15:02:22 INFO  TestBase:87 - Finding element using By.cssSelector: input[value='Continue']
+2023-10-16 15:02:22 INFO  TestBase:93 - Found element using By.cssSelector: input[value='Continue']
+2023-10-16 15:02:22 INFO  TestBase:99 - Clicking on 
+2023-10-16 15:02:23 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (acff606b967ddc8b2561672cb729e690)] -> css selector: input[value='Continue']]
+2023-10-16 15:02:23 INFO  TestBase:87 - Finding element using By.cssSelector: div.alert-success
+2023-10-16 15:02:23 INFO  TestBase:93 - Found element using By.cssSelector: div.alert-success
+2023-10-16 15:02:23 INFO  TestBase:165 - Getting text on Success: Your account has been successfully updated.
+2023-10-16 15:02:23 INFO  TestBase:171 - Got text on Success: Your account has been successfully updated.
+2023-10-16 15:02:23 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanUpdatePersonalInfo****************************
+2023-10-16 15:02:25 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:02:30 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 15:02:31 INFO  TestBase:13 - **********************Test Case started: validateWishListMessage****************************
+2023-10-16 15:02:31 INFO  TestBase:87 - Finding element using By.id: input-email
+2023-10-16 15:02:31 INFO  TestBase:93 - Found element using By.id: input-email
+2023-10-16 15:02:31 INFO  TestBase:87 - Finding element using By.id: input-password
+2023-10-16 15:02:31 INFO  TestBase:93 - Found element using By.id: input-password
+2023-10-16 15:02:31 INFO  TestBase:87 - Finding element using By.cssSelector: input[type='Submit']
+2023-10-16 15:02:31 INFO  TestBase:93 - Found element using By.cssSelector: input[type='Submit']
+2023-10-16 15:02:31 INFO  TestBase:99 - Clicking on 
+2023-10-16 15:02:32 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (c1aa3b8cc7a2abbb20c7008c3d58e012)] -> css selector: input[type='Submit']]
+2023-10-16 15:02:32 INFO  TestBase:87 - Finding element using By.cssSelector: div.list-group>a
+2023-10-16 15:02:32 INFO  TestBase:93 - Found element using By.cssSelector: div.list-group>a
+2023-10-16 15:02:32 INFO  TestBase:165 - Getting text on My Account
+2023-10-16 15:02:32 INFO  TestBase:171 - Got text on My Account
+2023-10-16 15:02:32 INFO  TestBase:165 - Getting text on Edit Account
+2023-10-16 15:02:32 INFO  TestBase:171 - Got text on Edit Account
+2023-10-16 15:02:32 INFO  TestBase:165 - Getting text on Password
+2023-10-16 15:02:32 INFO  TestBase:171 - Got text on Password
+2023-10-16 15:02:32 INFO  TestBase:165 - Getting text on Address Book
+2023-10-16 15:02:32 INFO  TestBase:171 - Got text on Address Book
+2023-10-16 15:02:32 INFO  TestBase:165 - Getting text on Wish List
+2023-10-16 15:02:32 INFO  TestBase:171 - Got text on Wish List
+2023-10-16 15:02:32 INFO  TestBase:99 - Clicking on Wish List
+2023-10-16 15:02:32 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (c1aa3b8cc7a2abbb20c7008c3d58e012)] -> css selector: div.list-group>a]
+2023-10-16 15:02:32 INFO  TestBase:87 - Finding element using By.cssSelector: #content>p
+2023-10-16 15:02:32 INFO  TestBase:93 - Found element using By.cssSelector: #content>p
+2023-10-16 15:02:32 INFO  TestBase:165 - Getting text on Your wish list is empty.
+2023-10-16 15:02:32 INFO  TestBase:171 - Got text on Your wish list is empty.
+2023-10-16 15:02:32 INFO  TestBase:87 - Finding element using By.cssSelector: a.btn-primary
+2023-10-16 15:02:33 INFO  TestBase:93 - Found element using By.cssSelector: a.btn-primary
+2023-10-16 15:02:33 INFO  TestBase:99 - Clicking on Continue
+2023-10-16 15:02:33 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (c1aa3b8cc7a2abbb20c7008c3d58e012)] -> css selector: a.btn-primary]
+2023-10-16 15:02:33 INFO  TestBase:87 - Finding element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 15:02:33 INFO  TestBase:93 - Found element using By.cssSelector: #content>h2:first-of-type
+2023-10-16 15:02:33 INFO  TestBase:165 - Getting text on My Account
+2023-10-16 15:02:33 INFO  TestBase:171 - Got text on My Account
+2023-10-16 15:02:33 INFO  TestBase:19 - **********************Test Case Passed: validateWishListMessage****************************
+2023-10-16 19:23:15 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 19:23:15 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 19:23:15 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 19:23:15 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 19:23:15 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 19:23:17 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 19:23:19 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 19:23:19 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 19:23:19 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-16 19:23:20 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-17 08:23:27 INFO  TestBase:39 - Navigating to https://naveenautomationlabsdev.com/opencart/index.php?route=account/login
+2023-10-17 08:23:51 INFO  TestBase:39 - Navigating to https://naveenautomationlabsdev.com/opencart/index.php?route=account/login
+2023-10-17 08:24:23 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-17 08:24:27 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-17 08:24:28 INFO  TestBase:87 - Finding element using By.id: input-email
+2023-10-17 08:24:29 INFO  TestBase:93 - Found element using By.id: input-email
+2023-10-17 08:24:29 INFO  TestBase:87 - Finding element using By.id: input-password
+2023-10-17 08:24:29 INFO  TestBase:93 - Found element using By.id: input-password
+2023-10-17 08:24:29 INFO  TestBase:87 - Finding element using By.cssSelector: input[type='Submit']
+2023-10-17 08:24:29 INFO  TestBase:93 - Found element using By.cssSelector: input[type='Submit']
+2023-10-17 08:24:29 INFO  TestBase:99 - Clicking on 
+2023-10-17 08:24:30 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (b021df271680d2c817669562ab138ae4)] -> css selector: input[type='Submit']]
+2023-10-17 08:24:30 INFO  TestBase:87 - Finding element using By.cssSelector: #content>h2:first-of-type
+2023-10-17 08:24:30 INFO  TestBase:93 - Found element using By.cssSelector: #content>h2:first-of-type
+2023-10-17 08:24:30 INFO  TestBase:165 - Getting text on My Account
+2023-10-17 08:24:30 INFO  TestBase:171 - Got text on My Account
+2023-10-17 08:24:34 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-17 08:24:38 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-17 08:24:39 INFO  TestBase:87 - Finding element using By.id: input-email
+2023-10-17 08:24:39 INFO  TestBase:93 - Found element using By.id: input-email
+2023-10-17 08:24:40 INFO  TestBase:87 - Finding element using By.id: input-password
+2023-10-17 08:24:40 INFO  TestBase:93 - Found element using By.id: input-password
+2023-10-17 08:24:40 INFO  TestBase:87 - Finding element using By.cssSelector: input[type='Submit']
+2023-10-17 08:24:40 INFO  TestBase:93 - Found element using By.cssSelector: input[type='Submit']
+2023-10-17 08:24:40 INFO  TestBase:99 - Clicking on 
+2023-10-17 08:24:41 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (e26ea6f75f04d760b1238f75814002d2)] -> css selector: input[type='Submit']]
+2023-10-17 08:24:41 INFO  TestBase:87 - Finding element using By.cssSelector: #content>h2:first-of-type
+2023-10-17 08:24:41 INFO  TestBase:93 - Found element using By.cssSelector: #content>h2:first-of-type
+2023-10-17 08:24:41 INFO  TestBase:165 - Getting text on My Account
+2023-10-17 08:24:41 INFO  TestBase:171 - Got text on My Account
+2023-10-17 08:24:44 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-17 08:24:49 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-17 08:24:49 INFO  TestBase:87 - Finding element using By.id: input-email
+2023-10-17 08:24:49 INFO  TestBase:93 - Found element using By.id: input-email
+2023-10-17 08:24:50 INFO  TestBase:87 - Finding element using By.id: input-password
+2023-10-17 08:24:50 INFO  TestBase:93 - Found element using By.id: input-password
+2023-10-17 08:24:50 INFO  TestBase:87 - Finding element using By.cssSelector: input[type='Submit']
+2023-10-17 08:24:50 INFO  TestBase:93 - Found element using By.cssSelector: input[type='Submit']
+2023-10-17 08:24:50 INFO  TestBase:99 - Clicking on 
+2023-10-17 08:24:51 INFO  TestBase:105 - Clicked on [[ChromeDriver: chrome on WINDOWS (248728c741ebd37602eb4b719d6aa0c7)] -> css selector: input[type='Submit']]
+2023-10-17 08:24:51 INFO  TestBase:87 - Finding element using By.cssSelector: #content>h2:first-of-type
+2023-10-17 08:24:51 INFO  TestBase:93 - Found element using By.cssSelector: #content>h2:first-of-type
+2023-10-17 08:24:51 INFO  TestBase:165 - Getting text on My Account
+2023-10-17 08:24:51 INFO  TestBase:171 - Got text on My Account
+2023-10-25 19:04:21 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-25 19:04:24 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-25 19:07:49 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-25 19:07:53 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-25 19:13:12 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-25 19:13:16 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-25 19:18:56 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-25 19:19:00 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-25 19:20:25 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-25 19:20:29 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-25 19:22:07 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-25 19:22:11 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-25 19:25:48 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-25 19:25:52 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-25 19:27:46 INFO  TestBase:39 - Navigating to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-25 19:27:50 INFO  TestBase:45 - Navigated to https://naveenautomationlabs.com/opencart/index.php?route=account/login
+2023-10-25 19:43:17 INFO  TestBase:13 - **********************Test Case started: validateCartMessage****************************
+2023-10-25 19:43:20 INFO  TestBase:19 - **********************Test Case Passed: validateCartMessage****************************
+2023-10-25 19:43:28 INFO  TestBase:13 - **********************Test Case started: validateContactUsEnquiryMessage****************************
+2023-10-25 19:43:32 INFO  TestBase:19 - **********************Test Case Passed: validateContactUsEnquiryMessage****************************
+2023-10-25 19:43:39 INFO  TestBase:13 - **********************Test Case started: validateUserCanLogout****************************
+2023-10-25 19:43:43 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanLogout****************************
+2023-10-25 19:43:50 INFO  TestBase:13 - **********************Test Case started: validateUserCannotChangePwdWithInValidCredentials****************************
+2023-10-25 19:43:51 INFO  TestBase:19 - **********************Test Case Passed: validateUserCannotChangePwdWithInValidCredentials****************************
+2023-10-25 19:43:58 INFO  TestBase:13 - **********************Test Case started: validateUserCanAccessFwdPwdWithValidCredentials****************************
+2023-10-25 19:44:00 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanAccessFwdPwdWithValidCredentials****************************
+2023-10-25 19:44:06 INFO  TestBase:13 - **********************Test Case started: validateUserCanNotLoginWithInValidCredentials****************************
+2023-10-25 19:44:07 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanNotLoginWithInValidCredentials****************************
+2023-10-25 19:44:14 INFO  TestBase:13 - **********************Test Case started: validateAccountDownloadsMessage****************************
+2023-10-25 19:44:16 INFO  TestBase:19 - **********************Test Case Passed: validateAccountDownloadsMessage****************************
+2023-10-25 19:44:24 INFO  TestBase:13 - **********************Test Case started: validateLoginWithMultipleCredentials****************************
+2023-10-25 19:44:26 INFO  TestBase:19 - **********************Test Case Passed: validateLoginWithMultipleCredentials****************************
+2023-10-25 19:44:33 INFO  TestBase:13 - **********************Test Case started: validateLoginWithMultipleCredentials****************************
+2023-10-25 19:44:34 INFO  TestBase:19 - **********************Test Case Passed: validateLoginWithMultipleCredentials****************************
+2023-10-25 19:44:40 INFO  TestBase:13 - **********************Test Case started: validateLoginWithMultipleCredentials****************************
+2023-10-25 19:44:42 INFO  TestBase:19 - **********************Test Case Passed: validateLoginWithMultipleCredentials****************************
+2023-10-25 19:44:48 INFO  TestBase:13 - **********************Test Case started: validatePaymentsMessage****************************
+2023-10-25 19:44:50 INFO  TestBase:19 - **********************Test Case Passed: validatePaymentsMessage****************************
+2023-10-25 19:44:57 INFO  TestBase:13 - **********************Test Case started: validateProductReturnMessage****************************
+2023-10-25 19:44:59 INFO  TestBase:19 - **********************Test Case Passed: validateProductReturnMessage****************************
+2023-10-25 19:45:06 INFO  TestBase:13 - **********************Test Case started: validateTransactionsPageMessage****************************
+2023-10-25 19:45:07 INFO  TestBase:15 - Retrying failed test : validateTransactionsPageMessagefor 1
+2023-10-25 19:45:07 INFO  TestBase:32 - ??????????????????Test Case skipped: validateTransactionsPageMessage????????????????
+2023-10-25 19:45:14 INFO  TestBase:13 - **********************Test Case started: validateTransactionsPageMessage****************************
+2023-10-25 19:45:16 INFO  TestBase:15 - Retrying failed test : validateTransactionsPageMessagefor 2
+2023-10-25 19:45:16 INFO  TestBase:25 - !!!!!!!!!!!!!!Test Case Fail: validateTransactionsPageMessage Taking Screenshot!!!!!!!!!!!!!!!!!!!!
+2023-10-25 19:45:22 INFO  TestBase:13 - **********************Test Case started: validateUserCanChangePassword****************************
+2023-10-25 19:45:25 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanChangePassword****************************
+2023-10-25 19:45:31 INFO  TestBase:13 - **********************Test Case started: validateUserCanLoginWithValidCredentials****************************
+2023-10-25 19:45:32 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanLoginWithValidCredentials****************************
+2023-10-25 19:45:39 INFO  TestBase:13 - **********************Test Case started: validateUserCanSubscribeNewsLetter****************************
+2023-10-25 19:45:41 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanSubscribeNewsLetter****************************
+2023-10-25 19:45:48 INFO  TestBase:13 - **********************Test Case started: validateUserCanUpdatePersonalInfo****************************
+2023-10-25 19:45:51 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanUpdatePersonalInfo****************************
+2023-10-25 19:45:58 INFO  TestBase:13 - **********************Test Case started: validateWishListMessage****************************
+2023-10-25 19:46:00 INFO  TestBase:15 - Retrying failed test : validateWishListMessagefor 1
+2023-10-25 19:46:00 INFO  TestBase:32 - ??????????????????Test Case skipped: validateWishListMessage????????????????
+2023-10-25 19:46:06 INFO  TestBase:13 - **********************Test Case started: validateWishListMessage****************************
+2023-10-25 19:46:08 INFO  TestBase:15 - Retrying failed test : validateWishListMessagefor 2
+2023-10-25 19:46:08 INFO  TestBase:25 - !!!!!!!!!!!!!!Test Case Fail: validateWishListMessage Taking Screenshot!!!!!!!!!!!!!!!!!!!!
+2023-10-30 16:27:19 INFO  TestBase:13 - **********************Test Case started: validateContactUsEnquiryMessage****************************
+2023-10-30 16:27:24 INFO  TestBase:19 - **********************Test Case Passed: validateContactUsEnquiryMessage****************************
+2023-10-30 16:27:33 INFO  TestBase:13 - **********************Test Case started: validateEmptyCartMessage****************************
+2023-10-30 16:27:37 INFO  TestBase:19 - **********************Test Case Passed: validateEmptyCartMessage****************************
+2023-10-30 16:27:46 INFO  TestBase:13 - **********************Test Case started: validateUserCanLogout****************************
+2023-10-30 16:27:50 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanLogout****************************
+2023-10-30 16:28:00 INFO  TestBase:13 - **********************Test Case started: validateUserCannotChangePwdWithInValidCredentials****************************
+2023-10-30 16:28:01 INFO  TestBase:19 - **********************Test Case Passed: validateUserCannotChangePwdWithInValidCredentials****************************
+2023-10-30 16:28:09 INFO  TestBase:13 - **********************Test Case started: validateUserCanAccessFwdPwdWithValidCredentials****************************
+2023-10-30 16:28:11 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanAccessFwdPwdWithValidCredentials****************************
+2023-10-30 16:28:20 INFO  TestBase:13 - **********************Test Case started: validateUserCanNotLoginWithInValidCredentials****************************
+2023-10-30 16:28:21 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanNotLoginWithInValidCredentials****************************
+2023-10-30 16:28:28 INFO  TestBase:13 - **********************Test Case started: validateAccountDownloadsMessage****************************
+2023-10-30 16:28:31 INFO  TestBase:19 - **********************Test Case Passed: validateAccountDownloadsMessage****************************
+2023-10-30 16:28:39 INFO  TestBase:13 - **********************Test Case started: validateLoginWithMultipleCredentials****************************
+2023-10-30 16:28:50 INFO  TestBase:15 - Retrying failed test : validateLoginWithMultipleCredentialsfor 1
+2023-10-30 16:28:50 INFO  TestBase:32 - ??????????????????Test Case skipped: validateLoginWithMultipleCredentials????????????????
+2023-10-30 16:28:56 INFO  TestBase:13 - **********************Test Case started: validateLoginWithMultipleCredentials****************************
+2023-10-30 16:29:07 INFO  TestBase:15 - Retrying failed test : validateLoginWithMultipleCredentialsfor 2
+2023-10-30 16:29:07 INFO  TestBase:25 - !!!!!!!!!!!!!!Test Case Fail: validateLoginWithMultipleCredentials Taking Screenshot!!!!!!!!!!!!!!!!!!!!
+2023-10-30 16:29:14 INFO  TestBase:13 - **********************Test Case started: validateLoginWithMultipleCredentials****************************
+2023-10-30 16:29:16 INFO  TestBase:19 - **********************Test Case Passed: validateLoginWithMultipleCredentials****************************
+2023-10-30 16:29:23 INFO  TestBase:13 - **********************Test Case started: validateLoginWithMultipleCredentials****************************
+2023-10-30 16:29:24 INFO  TestBase:19 - **********************Test Case Passed: validateLoginWithMultipleCredentials****************************
+2023-10-30 16:29:31 INFO  TestBase:13 - **********************Test Case started: validatePaymentsMessage****************************
+2023-10-30 16:29:33 INFO  TestBase:19 - **********************Test Case Passed: validatePaymentsMessage****************************
+2023-10-30 16:29:40 INFO  TestBase:13 - **********************Test Case started: validateProductReturnMessage****************************
+2023-10-30 16:29:42 INFO  TestBase:19 - **********************Test Case Passed: validateProductReturnMessage****************************
+2023-10-30 16:29:49 INFO  TestBase:13 - **********************Test Case started: validateTransactionsPageMessage****************************
+2023-10-30 16:29:51 INFO  TestBase:19 - **********************Test Case Passed: validateTransactionsPageMessage****************************
+2023-10-30 16:29:58 INFO  TestBase:13 - **********************Test Case started: validateUserCanChangePassword****************************
+2023-10-30 16:30:00 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanChangePassword****************************
+2023-10-30 16:30:07 INFO  TestBase:13 - **********************Test Case started: validateUserCanLoginWithValidCredentials****************************
+2023-10-30 16:30:09 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanLoginWithValidCredentials****************************
+2023-10-30 16:30:15 INFO  TestBase:13 - **********************Test Case started: validateUserCanSubscribeNewsLetter****************************
+2023-10-30 16:30:18 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanSubscribeNewsLetter****************************
+2023-10-30 16:30:25 INFO  TestBase:13 - **********************Test Case started: validateUserCanUpdatePersonalInfo****************************
+2023-10-30 16:30:38 INFO  TestBase:15 - Retrying failed test : validateUserCanUpdatePersonalInfofor 1
+2023-10-30 16:30:38 INFO  TestBase:32 - ??????????????????Test Case skipped: validateUserCanUpdatePersonalInfo????????????????
+2023-10-30 16:30:45 INFO  TestBase:13 - **********************Test Case started: validateUserCanUpdatePersonalInfo****************************
+2023-10-30 16:30:58 INFO  TestBase:15 - Retrying failed test : validateUserCanUpdatePersonalInfofor 2
+2023-10-30 16:30:58 INFO  TestBase:25 - !!!!!!!!!!!!!!Test Case Fail: validateUserCanUpdatePersonalInfo Taking Screenshot!!!!!!!!!!!!!!!!!!!!
+2023-10-30 16:31:06 INFO  TestBase:13 - **********************Test Case started: validateWishListMessage****************************
+2023-10-30 16:31:08 INFO  TestBase:19 - **********************Test Case Passed: validateWishListMessage****************************
+2023-11-11 21:12:43 INFO  TestBase:13 - **********************Test Case started: validateContactUsEnquiryMessage****************************
+2023-11-11 21:12:44 INFO  TestBase:32 - ??????????????????Test Case skipped: validateContactUsEnquiryMessage????????????????
+2023-11-11 21:12:44 INFO  TestBase:13 - **********************Test Case started: validateEmptyCartMessage****************************
+2023-11-11 21:12:44 INFO  TestBase:32 - ??????????????????Test Case skipped: validateEmptyCartMessage????????????????
+2023-11-11 21:12:44 INFO  TestBase:13 - **********************Test Case started: validateUserCanLogout****************************
+2023-11-11 21:12:44 INFO  TestBase:32 - ??????????????????Test Case skipped: validateUserCanLogout????????????????
+2023-11-11 21:12:56 INFO  TestBase:13 - **********************Test Case started: validateUserCannotChangePwdWithInValidCredentials****************************
+2023-11-11 21:12:57 INFO  TestBase:15 - Retrying failed test : validateUserCannotChangePwdWithInValidCredentialsfor 1
+2023-11-11 21:12:57 INFO  TestBase:32 - ??????????????????Test Case skipped: validateUserCannotChangePwdWithInValidCredentials????????????????
+2023-11-11 21:13:07 INFO  TestBase:13 - **********************Test Case started: validateUserCannotChangePwdWithInValidCredentials****************************
+2023-11-11 21:13:08 INFO  TestBase:15 - Retrying failed test : validateUserCannotChangePwdWithInValidCredentialsfor 2
+2023-11-11 21:13:08 INFO  TestBase:25 - !!!!!!!!!!!!!!Test Case Fail: validateUserCannotChangePwdWithInValidCredentials Taking Screenshot!!!!!!!!!!!!!!!!!!!!
+2023-11-11 21:13:19 INFO  TestBase:13 - **********************Test Case started: validateUserCanAccessFwdPwdWithValidCredentials****************************
+2023-11-11 21:13:19 INFO  TestBase:15 - Retrying failed test : validateUserCanAccessFwdPwdWithValidCredentialsfor 1
+2023-11-11 21:13:19 INFO  TestBase:32 - ??????????????????Test Case skipped: validateUserCanAccessFwdPwdWithValidCredentials????????????????
+2023-11-11 21:13:31 INFO  TestBase:13 - **********************Test Case started: validateUserCanAccessFwdPwdWithValidCredentials****************************
+2023-11-11 21:13:32 INFO  TestBase:15 - Retrying failed test : validateUserCanAccessFwdPwdWithValidCredentialsfor 2
+2023-11-11 21:13:32 INFO  TestBase:25 - !!!!!!!!!!!!!!Test Case Fail: validateUserCanAccessFwdPwdWithValidCredentials Taking Screenshot!!!!!!!!!!!!!!!!!!!!
+2023-11-11 21:13:43 INFO  TestBase:13 - **********************Test Case started: validateUserCanNotLoginWithInValidCredentials****************************
+2023-11-11 21:13:44 INFO  TestBase:15 - Retrying failed test : validateUserCanNotLoginWithInValidCredentialsfor 1
+2023-11-11 21:13:44 INFO  TestBase:32 - ??????????????????Test Case skipped: validateUserCanNotLoginWithInValidCredentials????????????????
+2023-11-11 21:13:56 INFO  TestBase:13 - **********************Test Case started: validateUserCanNotLoginWithInValidCredentials****************************
+2023-11-11 21:13:57 INFO  TestBase:15 - Retrying failed test : validateUserCanNotLoginWithInValidCredentialsfor 2
+2023-11-11 21:13:57 INFO  TestBase:25 - !!!!!!!!!!!!!!Test Case Fail: validateUserCanNotLoginWithInValidCredentials Taking Screenshot!!!!!!!!!!!!!!!!!!!!
+2023-11-11 21:14:14 INFO  TestBase:13 - **********************Test Case started: validateAccountDownloadsMessage****************************
+2023-11-11 21:14:17 INFO  TestBase:19 - **********************Test Case Passed: validateAccountDownloadsMessage****************************
+2023-11-11 21:14:31 INFO  TestBase:13 - **********************Test Case started: validateLoginWithMultipleCredentials****************************
+2023-11-11 21:14:32 INFO  TestBase:19 - **********************Test Case Passed: validateLoginWithMultipleCredentials****************************
+2023-11-11 21:14:43 INFO  TestBase:13 - **********************Test Case started: validateLoginWithMultipleCredentials****************************
+2023-11-11 21:14:45 INFO  TestBase:19 - **********************Test Case Passed: validateLoginWithMultipleCredentials****************************
+2023-11-11 21:14:56 INFO  TestBase:13 - **********************Test Case started: validateLoginWithMultipleCredentials****************************
+2023-11-11 21:14:57 INFO  TestBase:19 - **********************Test Case Passed: validateLoginWithMultipleCredentials****************************
+2023-11-11 21:15:07 INFO  TestBase:13 - **********************Test Case started: validatePaymentsMessage****************************
+2023-11-11 21:15:09 INFO  TestBase:19 - **********************Test Case Passed: validatePaymentsMessage****************************
+2023-11-11 21:15:24 INFO  TestBase:13 - **********************Test Case started: validateProductReturnMessage****************************
+2023-11-11 21:15:26 INFO  TestBase:19 - **********************Test Case Passed: validateProductReturnMessage****************************
+2023-11-11 21:15:35 INFO  TestBase:13 - **********************Test Case started: validateTransactionsPageMessage****************************
+2023-11-11 21:16:07 INFO  TestBase:15 - Retrying failed test : validateTransactionsPageMessagefor 1
+2023-11-11 21:16:07 INFO  TestBase:32 - ??????????????????Test Case skipped: validateTransactionsPageMessage????????????????
+2023-11-11 21:16:15 INFO  TestBase:13 - **********************Test Case started: validateTransactionsPageMessage****************************
+2023-11-11 21:16:47 INFO  TestBase:15 - Retrying failed test : validateTransactionsPageMessagefor 2
+2023-11-11 21:16:47 INFO  TestBase:25 - !!!!!!!!!!!!!!Test Case Fail: validateTransactionsPageMessage Taking Screenshot!!!!!!!!!!!!!!!!!!!!
+2023-11-11 21:16:58 INFO  TestBase:13 - **********************Test Case started: validateUserCanChangePassword****************************
+2023-11-11 21:17:03 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanChangePassword****************************
+2023-11-11 21:17:12 INFO  TestBase:13 - **********************Test Case started: validateUserCanLoginWithValidCredentials****************************
+2023-11-11 21:17:13 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanLoginWithValidCredentials****************************
+2023-11-11 21:17:21 INFO  TestBase:13 - **********************Test Case started: validateUserCanSubscribeNewsLetter****************************
+2023-11-11 21:17:24 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanSubscribeNewsLetter****************************
+2023-11-11 21:17:33 INFO  TestBase:13 - **********************Test Case started: validateUserCanUpdatePersonalInfo****************************
+2023-11-11 21:17:36 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanUpdatePersonalInfo****************************
+2023-11-11 21:17:46 INFO  TestBase:13 - **********************Test Case started: validateWishListMessage****************************
+2023-11-11 21:18:18 INFO  TestBase:15 - Retrying failed test : validateWishListMessagefor 1
+2023-11-11 21:18:18 INFO  TestBase:32 - ??????????????????Test Case skipped: validateWishListMessage????????????????
+2023-11-11 21:18:39 INFO  TestBase:13 - **********************Test Case started: validateWishListMessage****************************
+2023-11-11 21:19:11 INFO  TestBase:15 - Retrying failed test : validateWishListMessagefor 2
+2023-11-11 21:19:11 INFO  TestBase:25 - !!!!!!!!!!!!!!Test Case Fail: validateWishListMessage Taking Screenshot!!!!!!!!!!!!!!!!!!!!
