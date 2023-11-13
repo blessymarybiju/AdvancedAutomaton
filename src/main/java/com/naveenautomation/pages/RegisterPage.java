@@ -49,16 +49,16 @@ public class RegisterPage extends Page {
 	}
 
 
-	public AccountPage clickSubmitButton() {
+	public AccountSucessPage clickSubmitButton() {
 		enterFirstName("Neethu");
 		enterLastName("S");
-		enterEmail("neethuS@email.com");
-		enterPassword("9874563210");
+		enterEmail("neethuSaj@email.com");
+		enterPhoneNum("9874563210");
 		enterPassword("abcd");
 		enterConfirmPassword("abcd");
 		clickAgreeCheckBox();
 		((ProxyDriver) wd).click(continueButton);
-		return new AccountPage(wd, true);
+		return new AccountSucessPage(wd, true);
 	}
 
 	@Override

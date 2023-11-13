@@ -6,6 +6,8 @@ public class HomePage extends Page {
 
 	private static final String PAGE_URL = "/opencart/index.php?route=common/home";
 
+//	private static By currencyDropDown = By.cssSelector("button.btn-link>span");
+
 	public HomePage(WebDriver wd, boolean waitForPageToLoad) {
 		super(wd, waitForPageToLoad);
 	}
@@ -24,5 +26,6 @@ public class HomePage extends Page {
 
 	@Override
 	protected String getPageURL() {
-		return getDomain() + PAGE_URL;	}
+		return getDomain() + PAGE_URL;
+	}
 }

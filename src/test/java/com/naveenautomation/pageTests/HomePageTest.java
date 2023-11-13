@@ -7,11 +7,15 @@ import org.testng.annotations.Test;
 
 import com.naveenautomation.base.TestBase;
 import com.naveenautomation.pages.AccountPage;
+import com.naveenautomation.pages.AddReturnProduct;
+import com.naveenautomation.pages.ApplePage;
 import com.naveenautomation.pages.ConsumerSideNavigationBar;
 import com.naveenautomation.pages.ContactPage;
 import com.naveenautomation.pages.HomePage;
 import com.naveenautomation.pages.LoginPage;
 import com.naveenautomation.pages.LogoutPage;
+import com.naveenautomation.pages.ManufactorsPage;
+import com.naveenautomation.pages.ProductReturnsSuccessPage;
 import com.naveenautomation.pages.ShoppingCartPage;
 import com.naveenautomation.pages.SideNavBar;
 
@@ -23,6 +27,10 @@ public class HomePageTest extends TestBase {
 	private ContactPage contactPage;
 	private LogoutPage logoutPage;
 	private HomePage homePage;
+	private AddReturnProduct returnProduct;
+	private ProductReturnsSuccessPage returnsSuccessPage;
+	private ManufactorsPage manufactorsPage;
+	private ApplePage applePage;
 
 	@BeforeMethod
 	public void launch() {
@@ -59,6 +67,28 @@ public class HomePageTest extends TestBase {
 		Assert.assertEquals(contactPage.getMessageForShoppingCartPage(),
 				"Your enquiry has been successfully sent to the store owner!", "Your enquiry is not send");
 		homePage = contactPage.clickContinueBtn();
+		Assert.assertEquals(homePage.getHomePageTitle(), "Your Store", "User is not on the home page");
+	}
+	
+	@Test
+	public void validateUserCanReturnProducts() {
+		accountPage = loginPage.SubmitLogin(emailId, password);
+		 returnProduct= accountPage.clickReturnLink();
+		returnsSuccessPage=returnProduct.clickSubmitButton();
+		Assert.assertEquals(returnsSuccessPage.getSuccessMessageForProductReturn(),
+				"Thank you for submitting your return request. Your request has been sent to the relevant department for processing.", "Your request is not send");
+		homePage = returnsSuccessPage.clickContinueBtn();
+		Assert.assertEquals(homePage.getHomePageTitle(), "Your Store", "User is not on the home page");
+	}
+	
+	@Test
+	public void validateUserCanSortProductByBrand() {
+		accountPage = loginPage.SubmitLogin(emailId, password);
+		 manufactorsPage= accountPage.clickOnBrandLink();
+		applePage=manufactorsPage.clickOnAppleLink();
+		Assert.assertEquals(applePage.getApplePageTitle(),
+				"Apple", "You are on wrong page");
+		homePage = applePage.clickNaveenLogo();
 		Assert.assertEquals(homePage.getHomePageTitle(), "Your Store", "User is not on the home page");
 	}
 

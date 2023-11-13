@@ -17,23 +17,12 @@
           <include name="loggerSteup"/>
         </methods>
       </class> <!-- com.naveenautomation.pageTests.LoginPageTest -->
-      <class name="com.naveenautomation.pageTests.HomePageTest">
-        <methods>
-          <include name="validateUserCanLogout"/>
-          <include name="launch"/>
-          <include name="loggerSteup"/>
-          <include name="validateEmptyCartMessage"/>
-          <include name="quitBrowser"/>
-          <include name="validateContactUsEnquiryMessage"/>
-        </methods>
-      </class> <!-- com.naveenautomation.pageTests.HomePageTest -->
       <class name="com.naveenautomation.pageTests.AccountPageTest">
         <methods>
-          <include name="validateTransactionsPageMessage"/>
           <include name="launch"/>
-          <include name="validateWishListMessage"/>
-          <include name="quitBrowser"/>
+          <include name="validateUserCanRegisterNewAccount"/>
           <include name="loggerSteup"/>
+          <include name="quitBrowser"/>
         </methods>
       </class> <!-- com.naveenautomation.pageTests.AccountPageTest -->
       <class name="com.naveenautomation.pageTests.ForgetPasswordTest">

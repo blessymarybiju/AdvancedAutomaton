@@ -10,7 +10,7 @@ public class Transactions extends Page {
 		// TODO Auto-generated constructor stub
 	}
 
-	private static final String PAGE_URL = "/opencart/index.php?route=account/recurring";
+	private static final String PAGE_URL = "/opencart/index.php?route=account/transaction";
 	private static By currentBalanceMessage = By.cssSelector("#content>p");
 	private static By continueBtn = By.cssSelector("a.btn-primary");
 

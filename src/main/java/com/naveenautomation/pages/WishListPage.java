@@ -10,7 +10,7 @@ public class WishListPage extends Page {
 		super(wd, waitForPageToLoad);
 	}
 
-	private static final String PAGE_URL = "/opencart/index.php?route=account/recurring";
+	private static final String PAGE_URL = "/opencart/index.php?route=account/wishlist";
 	private static By  wishListMessage= By.cssSelector("#content>p");
 	private static By  continueBtn= By.cssSelector("a.btn-primary");
 

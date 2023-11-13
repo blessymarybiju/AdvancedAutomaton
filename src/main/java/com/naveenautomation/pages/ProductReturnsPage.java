@@ -12,7 +12,7 @@ public class ProductReturnsPage extends Page {
 		// TODO Auto-generated constructor stub
 	}
 
-	private static By returnProductMessage= By.cssSelector("#content>p");
+	private static By returnProductMessage= By.cssSelector("#content>h1");
 	private static By continueBtn= By.cssSelector("a.btn-primary");
 
 	/* Method to return the text from return page */

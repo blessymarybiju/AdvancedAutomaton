@@ -19,6 +19,7 @@ public class LoginPage extends Page {
 	private static By alertBanner = By.cssSelector(".alert-danger");
 	private static By forgetPwdLink = By.cssSelector("div.form-group>a");
 	private static By emailSendConfirmationMessage = By.cssSelector(".alert-success");
+	private static By continueButton = By.cssSelector("a.btn-primary");
 
 	private void enterEmail(String email) {
 		((ProxyDriver) wd).sendKeys(emailInput, email);
@@ -33,6 +34,11 @@ public class LoginPage extends Page {
 		enterPassword(password);
 		((ProxyDriver) wd).click(loginBtn);
 		return new AccountPage(wd, true);
+	}
+
+	public RegisterPage clickContinueRegisterButton() {
+		((ProxyDriver) wd).click(continueButton);
+		return new RegisterPage(wd, true);
 	}
 
 	public String getAlertText() {
