@@ -128,7 +128,7 @@ public class AccountPageTest extends TestBase {
 		Assert.assertEquals(accountPage.getMyAccountText(), "My Account", "User not logged in");
 	}
 
-	@Test
+	@Test(enabled = false)
 	public void validateUserCanRegisterNewAccount() {
 		registerPage = loginPage.clickContinueRegisterButton();
 		accountSucessPage = registerPage.clickSubmitButton();

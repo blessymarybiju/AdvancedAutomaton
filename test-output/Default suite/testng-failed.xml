@@ -5,8 +5,8 @@
     <classes>
       <class name="com.naveenautomation.pageTests.AccountPageTest">
         <methods>
-          <include name="validateUserCannotUpdatePasswordIfPwdMismatch"/>
           <include name="launch"/>
+          <include name="validateUserCanRegisterNewAccount"/>
           <include name="quitBrowser"/>
           <include name="loggerSteup"/>
         </methods>
