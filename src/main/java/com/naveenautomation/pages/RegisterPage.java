@@ -67,7 +67,7 @@ public class RegisterPage extends Page {
 	public AccountSucessPage clickSubmitButton() {
 		enterFirstName("Neethu");
 		enterLastName("S");
-		enterEmail("neethuSilus@email.com");
+		enterEmail("neethuSilu123@email.com");
 		enterPhoneNum("9874563210");
 		enterPassword("abcd");
 		enterConfirmPassword("abcd");
