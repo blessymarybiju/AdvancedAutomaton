@@ -1,6 +1,8 @@
 package com.naveenautomation.pages;
 
+
 import org.openqa.selenium.WebDriver;
+
 
 public class HomePage extends Page {
 
@@ -11,6 +13,8 @@ public class HomePage extends Page {
 	public HomePage(WebDriver wd, boolean waitForPageToLoad) {
 		super(wd, waitForPageToLoad);
 	}
+	
+
 
 	public String getHomePageTitle() {
 		return wd.getTitle();

@@ -24,7 +24,7 @@ public class ForgetPasswordTest extends TestBase {
 	public void validateUserCannotChangePwdWithInValidCredentials() {
 		forgottenPasswordPage = loginPage.clickForgetPwdLink();
 		forgottenPasswordPage.enterEmail("abc@xyaz.com");
-		forgottenPasswordPage.clickSubmitBtn();
+		forgottenPasswordPage.clickSubmitBtnWithInValidEmail();
 		Assert.assertEquals(forgottenPasswordPage.getSuccessMessageForForgetPwd(),
 				"Warning: The E-Mail Address was not found in our records, please try again!",
 				"Forget password with invalid credential failed");

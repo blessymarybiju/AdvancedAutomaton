@@ -20,10 +20,26 @@ public class RegisterPage extends Page {
 	private static By confirmPasswordInput = By.xpath("//input[@id='input-confirm']");
 	private static By agreeCheckbox = By.xpath("//input[@name='agree']");
 	private static By continueButton = By.xpath("//input[@class='btn btn-primary']");
+	private static By alertForPwdMisMatch = By.cssSelector("div.text-danger");
+	private static By alertForEmptyEmailField = By.cssSelector("div.text-danger");
+	private static By alertForAgreeCheckBox = By.cssSelector("div.alert-danger");
 
 	private void enterFirstName(String fName) {
 		((ProxyDriver) wd).sendKeys(firstNameInput, fName);
 	}
+
+	public String getMessageForPwdMismatch() {
+		return ((ProxyDriver) wd).getText(alertForPwdMisMatch);
+	}
+
+	public String getMessageForAgreeCheckBox() {
+		return ((ProxyDriver) wd).getText(alertForAgreeCheckBox);
+	}
+
+	public String getMessageForEmptyEmailInput() {
+		return ((ProxyDriver) wd).getText(alertForEmptyEmailField);
+	}
+
 	private void enterLastName(String lName) {
 		((ProxyDriver) wd).sendKeys(lastNameInput, lName);
 	}
@@ -44,21 +60,70 @@ public class RegisterPage extends Page {
 		((ProxyDriver) wd).sendKeys(emailInput, email);
 	}
 
-	private void clickAgreeCheckBox () {
+	private void clickAgreeCheckBox() {
 		((ProxyDriver) wd).click(agreeCheckbox);
 	}
-
 
 	public AccountSucessPage clickSubmitButton() {
 		enterFirstName("Neethu");
 		enterLastName("S");
-		enterEmail("neethuSaj@email.com");
+		enterEmail("neethuSilus@email.com");
 		enterPhoneNum("9874563210");
 		enterPassword("abcd");
 		enterConfirmPassword("abcd");
 		clickAgreeCheckBox();
 		((ProxyDriver) wd).click(continueButton);
 		return new AccountSucessPage(wd, true);
+	}
+
+	public RegisterPage clickSubmitButtonWithoutAgreePrivacyPolicy() {
+		enterFirstName("Neethu");
+		enterLastName("S");
+		enterEmail("neethusalu@email.com");
+		enterPhoneNum("9874563210");
+		enterPassword("abcd");
+		enterConfirmPassword("abcd");
+		((ProxyDriver) wd).click(continueButton);
+		return new RegisterPage(wd, true);
+	}
+
+	public RegisterPage clickSubmitButtonWithRegisteredEmail() {
+		enterFirstName("Neethu");
+		enterLastName("S");
+		enterEmail("neethuSai@email.com");
+		enterPhoneNum("9874563210");
+		enterPassword("abcd");
+		enterConfirmPassword("abcd");
+		clickAgreeCheckBox();
+		((ProxyDriver) wd).click(continueButton);
+		return new RegisterPage(wd, true);
+	}
+
+	public RegisterPage clickSubmitButtonWithDifferentPassword() {
+		enterFirstName("Neethu");
+		enterLastName("S");
+		enterEmail("neethuSai@email.com");
+		enterPhoneNum("9874563210");
+		enterPassword("abcd");
+		enterConfirmPassword("1234");
+		clickAgreeCheckBox();
+		((ProxyDriver) wd).click(continueButton);
+		return new RegisterPage(wd, true);
+	}
+
+	public RegisterPage clickSubmitButtonWithEmptyField() {
+		enterFirstName("Neethu");
+		enterLastName("S");
+		enterPhoneNum("9874563210");
+		enterPassword("abcd");
+		enterConfirmPassword("1234");
+		clickAgreeCheckBox();
+		((ProxyDriver) wd).click(continueButton);
+		return new RegisterPage(wd, true);
+	}
+
+	public String getFwdPwdPageTitle() {
+		return wd.getTitle();
 	}
 
 	@Override

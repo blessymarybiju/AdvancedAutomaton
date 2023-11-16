@@ -13,12 +13,16 @@ public class NewsLetterSubscriptionPage extends Page {
 
 	private static final String PAGE_URL = "/opencart/index.php?route=account/newsletter";
 	private static By yesRadioBtn= By.cssSelector( "label.radio-inline:first-of-type>input");
+	private static By noRadioBtn= By.cssSelector( "label.radio-inline:nth-of-type(2)>input");
 	private static By continueBtn= By.cssSelector("input.btn-primary");
 
 	public void clickYesOnRadioBtn() {
 		((ProxyDriver) wd).click(yesRadioBtn);
 	}
 
+	public void clickNoOnRadioBtn() {
+		((ProxyDriver) wd).click(noRadioBtn);
+	}
 	public AccountPage clickSubmitBtn() {
 		clickYesOnRadioBtn();
 		((ProxyDriver) wd).click(continueBtn);

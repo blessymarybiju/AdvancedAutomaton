@@ -14,9 +14,20 @@ public class ChangePasswordPage extends Page {
 	private static By password = By.cssSelector("#input-password");
 	private static By confirmPassword = By.cssSelector("#input-confirm");
 	private static By continueBtn = By.cssSelector(".btn-primary");
+	private static By backBtn = By.cssSelector("a.btn-default");
+	private static By pwdMismatchAlert = By.cssSelector("div.text-danger");
 
 	private void enterPwd(String pwd) {
 		((ProxyDriver) wd).sendKeys(password, pwd);
+	}
+
+	public AccountPage clickBackBtn() {
+		((ProxyDriver) wd).click(backBtn);
+		return new AccountPage(wd, true);
+	}
+
+	public String getAlertForPwdMismatch() {
+		return ((ProxyDriver) wd).getText(pwdMismatchAlert);
 	}
 
 	private void enterConfirmPwd(String confirmPwd) {
@@ -28,6 +39,13 @@ public class ChangePasswordPage extends Page {
 		enterConfirmPwd(confirmPwd);
 		((ProxyDriver) wd).click(continueBtn);
 		return new AccountPage(wd, true);
+	}
+
+	public ChangePasswordPage clickSubmitBtnWithPwdMismatch(String pwd, String confirmPwd) {
+		enterPwd(pwd);
+		enterConfirmPwd(confirmPwd);
+		((ProxyDriver) wd).click(continueBtn);
+		return new ChangePasswordPage(wd, true);
 	}
 
 	@Override

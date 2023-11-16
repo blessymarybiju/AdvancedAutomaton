@@ -23,7 +23,7 @@ public class LoginPageTest extends TestBase {
 
 	@Test
 	public void validateUserCanNotLoginWithInValidCredentials() {
-		loginPage.SubmitLogin("navenncxe@gmail.com", "ABCD");
+		loginPage.SubmitLoginForInValidUSer("navenncxe@gmail.com", "ABCD");
 		Assert.assertEquals(loginPage.getAlertText(), "Warning: No match for E-Mail Address and/or Password.",
 				"User logged in");
 	}

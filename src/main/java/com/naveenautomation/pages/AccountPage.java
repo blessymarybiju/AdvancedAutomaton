@@ -21,6 +21,7 @@ public class AccountPage extends Page {
 	private static By editAffiliateLink = By.cssSelector("div#content>ul:nth-of-type(3)>li:nth-of-type(1)>a");
 	private static By editAffiliateSuccessMessage = By.cssSelector("div.alert-success");
 	private static By brandsLink = By.cssSelector("footer>div>div>div:nth-of-type(3)>ul>li:nth-of-type(1)>a");
+	private static final By naveenLogoImage = By.cssSelector("div#logo>a>img");
 
 	public String getMyAccountText() {
 		return ((ProxyDriver) wd).getText(myAccountText);
@@ -43,6 +44,11 @@ public class AccountPage extends Page {
 	/* Method to return the success text of newsletter */
 	public String getSuccessMessageForNewsLetter() {
 		return ((ProxyDriver) wd).getText(newsLetterSubscribeSuccessMessage);
+	}
+
+	public HomePage clickOnLogo() {
+		((ProxyDriver) wd).click(naveenLogoImage);
+		return new HomePage(wd, true);
 	}
 
 	/*
@@ -73,7 +79,7 @@ public class AccountPage extends Page {
 		((ProxyDriver) wd).click(brandsLink);
 		return new ManufactorsPage(wd, true);
 	}
-	
+
 	@Override
 	protected void isLoaded() {
 

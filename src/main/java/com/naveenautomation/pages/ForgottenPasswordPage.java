@@ -1,7 +1,5 @@
 package com.naveenautomation.pages;
 
-
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -13,7 +11,7 @@ public class ForgottenPasswordPage extends Page {
 		super(wd, waitForPageToLoad);
 	}
 
-	private static final String PAGE_URL = "/opencart/index.php?route=account/password";
+	private static final String PAGE_URL = "/opencart/index.php?route=account/forgotten";
 	private static By emailInput = By.cssSelector("#input-email");
 	private static By submitBtn = By.cssSelector("input[value='Continue']");
 	private static By forgetPwdInvalidCredentialMessage = By.cssSelector("div.alert-danger");
@@ -31,6 +29,10 @@ public class ForgottenPasswordPage extends Page {
 		return ((ProxyDriver) wd).getText(forgetPwdInvalidCredentialMessage);
 	}
 
+	public ForgottenPasswordPage clickSubmitBtnWithInValidEmail() {
+		((ProxyDriver) wd).click(submitBtn);
+		return new ForgottenPasswordPage(wd, true);
+	}
 	@Override
 	protected void isLoaded() {
 
@@ -39,9 +41,8 @@ public class ForgottenPasswordPage extends Page {
 		}
 	}
 
-
 	@Override
 	protected String getPageURL() {
 		return getDomain() + PAGE_URL;
-		}
+	}
 }

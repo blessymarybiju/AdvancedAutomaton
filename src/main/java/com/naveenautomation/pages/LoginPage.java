@@ -35,6 +35,13 @@ public class LoginPage extends Page {
 		((ProxyDriver) wd).click(loginBtn);
 		return new AccountPage(wd, true);
 	}
+	
+	public LoginPage SubmitLoginForInValidUSer(String email, String password) {
+		enterEmail(email);
+		enterPassword(password);
+		((ProxyDriver) wd).click(loginBtn);
+		return new LoginPage(wd, true);
+	}
 
 	public RegisterPage clickContinueRegisterButton() {
 		((ProxyDriver) wd).click(continueButton);

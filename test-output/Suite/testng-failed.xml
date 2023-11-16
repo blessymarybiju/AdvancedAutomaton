@@ -21,8 +21,8 @@
         <methods>
           <include name="launch"/>
           <include name="validateUserCanRegisterNewAccount"/>
-          <include name="loggerSteup"/>
           <include name="quitBrowser"/>
+          <include name="loggerSteup"/>
         </methods>
       </class> <!-- com.naveenautomation.pageTests.AccountPageTest -->
       <class name="com.naveenautomation.pageTests.ForgetPasswordTest">

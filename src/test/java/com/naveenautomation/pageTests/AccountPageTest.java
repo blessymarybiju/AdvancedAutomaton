@@ -16,6 +16,7 @@ import com.naveenautomation.pages.EditPage;
 import com.naveenautomation.pages.LoginPage;
 import com.naveenautomation.pages.NewsLetterSubscriptionPage;
 import com.naveenautomation.pages.OrderHistoryPage;
+import com.naveenautomation.pages.OrderInfoPage;
 import com.naveenautomation.pages.ProductReturnsPage;
 import com.naveenautomation.pages.RecurringPayments;
 import com.naveenautomation.pages.RegisterPage;
@@ -42,6 +43,7 @@ public class AccountPageTest extends TestBase {
 	private OrderHistoryPage orderHistoryPage;
 	private RewardPage rewardPage;
 	private EditAffiliatePage editAffiliatePage;
+	private OrderInfoPage orderInfoPage;
 
 	@BeforeMethod
 	public void launch() {
@@ -72,12 +74,48 @@ public class AccountPageTest extends TestBase {
 
 	/* Test for validating whether user can update personal Info */
 	@Test
-	public void validateUserCanUpdatePersonalInfo() {
+	public void validateUserCanUpdateFirstName() {
 		accountPage = loginPage.SubmitLogin(emailId, password);
 		// editPage = accountPage.clickEditInfoLink();
 		editPage = (EditPage) new SideNavBar(wd, false)
 				.OpenPageByClickOnSideNavBar(ConsumerSideNavigationBar.EDIT_ACCOUNT);
 		editPage.enterFName("Nav");
+		accountPage = editPage.clickSubmitBtn();
+		Assert.assertEquals(accountPage.getSuccessMessageForEditInfo(),
+				"Success: Your account has been successfully updated.", "Info not updated");
+	}
+
+	@Test
+	public void validateUserCanUpdateLastName() {
+		accountPage = loginPage.SubmitLogin(emailId, password);
+		// editPage = accountPage.clickEditInfoLink();
+		editPage = (EditPage) new SideNavBar(wd, false)
+				.OpenPageByClickOnSideNavBar(ConsumerSideNavigationBar.EDIT_ACCOUNT);
+		editPage.enterLName("Neil");
+		accountPage = editPage.clickSubmitBtn();
+		Assert.assertEquals(accountPage.getSuccessMessageForEditInfo(),
+				"Success: Your account has been successfully updated.", "Info not updated");
+	}
+
+	@Test
+	public void validateUserCanUpdateEmail() {
+		accountPage = loginPage.SubmitLogin(emailId, password);
+		// editPage = accountPage.clickEditInfoLink();
+		editPage = (EditPage) new SideNavBar(wd, false)
+				.OpenPageByClickOnSideNavBar(ConsumerSideNavigationBar.EDIT_ACCOUNT);
+		editPage.enterEmail("navenncxe@gmail.com");
+		accountPage = editPage.clickSubmitBtn();
+		Assert.assertEquals(accountPage.getSuccessMessageForEditInfo(),
+				"Success: Your account has been successfully updated.", "Info not updated");
+	}
+
+	@Test
+	public void validateUserCanUpdateNumber() {
+		accountPage = loginPage.SubmitLogin(emailId, password);
+		// editPage = accountPage.clickEditInfoLink();
+		editPage = (EditPage) new SideNavBar(wd, false)
+				.OpenPageByClickOnSideNavBar(ConsumerSideNavigationBar.EDIT_ACCOUNT);
+		editPage.enterTelephone("9876543210");
 		accountPage = editPage.clickSubmitBtn();
 		Assert.assertEquals(accountPage.getSuccessMessageForEditInfo(),
 				"Success: Your account has been successfully updated.", "Info not updated");
@@ -209,6 +247,60 @@ public class AccountPageTest extends TestBase {
 		accountPage = editAffiliatePage.clickSubmitBtn("Naveen");
 		Assert.assertEquals(accountPage.getSuccessMessageForEditAffiliateInfo(),
 				"Success: Your account has been successfully updated.", "Info not updated");
+	}
+
+	@Test
+	public void validateUserAbleToViewPreviousOrderDetails() {
+		accountPage = loginPage.SubmitLogin(emailId, password);
+		orderHistoryPage = (OrderHistoryPage) new SideNavBar(wd, false)
+				.OpenPageByClickOnSideNavBar(ConsumerSideNavigationBar.ORDER_HISTORY);
+		Assert.assertEquals(orderHistoryPage.getBannerForOdrerHistoryPage(), "Order History",
+				"You are in the wrong page!!!");
+		orderInfoPage = orderHistoryPage.clickViewBtn();
+		Assert.assertEquals(orderInfoPage.getHeaderForOdrerHistory(), "Order Details", "You are in the wrong page!!!");
+		orderHistoryPage = orderInfoPage.clickContinueBtn();
+		accountPage = orderHistoryPage.clickContinueBtn();
+		Assert.assertEquals(accountPage.getMyAccountText(), "My Account", "User is failed to reach My Account Page");
+	}
+
+	@Test
+	public void validateUserCanUnsubscribeNewsLetter() {
+		accountPage = loginPage.SubmitLogin(emailId, password);
+		// subscriptionPage = accountPage.clickNewsLetterLink();
+		subscriptionPage = (NewsLetterSubscriptionPage) new SideNavBar(wd, false)
+				.OpenPageByClickOnSideNavBar(ConsumerSideNavigationBar.NEWSLETTER_SUBSCRIPTION);
+		subscriptionPage.clickNoOnRadioBtn();
+		accountPage = subscriptionPage.clickSubmitBtn();
+		Assert.assertEquals(accountPage.getSuccessMessageForNewsLetter(),
+				"Success: Your newsletter subscription has been successfully updated!",
+				"Your subscription is not updated");
+
+	}
+
+	@Test
+	public void validateUserCannotUpdatePasswordIfPwdMismatch() {
+		accountPage = loginPage.SubmitLogin(emailId, password);
+		changePasswordPage = (ChangePasswordPage) new SideNavBar(wd, false)
+				.OpenPageByClickOnSideNavBar(ConsumerSideNavigationBar.CHANGE_PASSWORD);
+		changePasswordPage.clickSubmitBtnWithPwdMismatch("abcd", "aaaa");
+		Assert.assertEquals(changePasswordPage.getAlertForPwdMismatch(),
+				"Password confirmation does not match password!", "Password is updated");
+		accountPage = changePasswordPage.clickBackBtn();
+		Assert.assertEquals(accountPage.getMyAccountText(), "My Account", "Wrong Page");
+	}
+
+	@Test
+	public void validateUserCannotUpdateInfoWithEmptyField() {
+		accountPage = loginPage.SubmitLogin(emailId, password);
+		editPage = (EditPage) new SideNavBar(wd, false)
+				.OpenPageByClickOnSideNavBar(ConsumerSideNavigationBar.EDIT_ACCOUNT);
+		editPage.enterFName("Naveen");
+		editPage.enterTelephone("9876543210");
+		editPage.clickSubmitBtnWithEmptyField();
+		Assert.assertEquals(editPage.getAlertForEmptyLastName(), "Last Name must be between 1 and 32 characters!",
+				"Personal Info is updated");
+		accountPage = editPage.clickBackBtn();
+		Assert.assertEquals(accountPage.getMyAccountText(), "My Account", "Wrong Page");
 	}
 
 	@AfterMethod

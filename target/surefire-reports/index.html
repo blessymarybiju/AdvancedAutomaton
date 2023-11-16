@@ -1,0 +1,1446 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">40 methods, 1 failed,   39 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateUserCanRegisterNewAccount">validateUserCanRegisterNewAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateAccountDownloadsMessage">validateAccountDownloadsMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.HomePageTest" class="method navigator-link" hash-for-method="validateContactUsEnquiryMessage">validateContactUsEnquiryMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.HomePageTest" class="method navigator-link" hash-for-method="validateHomeLogo">validateHomeLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateLoginWithMultipleCredentials(andreas@email.com, qwerty)">validateLoginWithMultipleCredentials(andreas@email.com, qwerty)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateLoginWithMultipleCredentials(naveen@email.com, abcd)">validateLoginWithMultipleCredentials(naveen@email.com, abcd)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateLoginWithMultipleCredentials(navenncxe@gmail.com, abcd)">validateLoginWithMultipleCredentials(navenncxe@gmail.com, abcd)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validatePaymentsMessage">validatePaymentsMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateProductReturnMessage">validateProductReturnMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateTransactionsPageMessage">validateTransactionsPageMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateUserAbleToViewOrderHistory">validateUserAbleToViewOrderHistory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateUserAbleToViewPreviousOrderDetails">validateUserAbleToViewPreviousOrderDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateUserAbleToViewRewardPoint">validateUserAbleToViewRewardPoint</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.LoginPageTest" class="method navigator-link" hash-for-method="validateUserCanAccessFwdPwdWithValidCredentials">validateUserCanAccessFwdPwdWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateUserCanLoginWithValidCredentials">validateUserCanLoginWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.HomePageTest" class="method navigator-link" hash-for-method="validateUserCanLogout">validateUserCanLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.LoginPageTest" class="method navigator-link" hash-for-method="validateUserCanNotLoginWithInValidCredentials">validateUserCanNotLoginWithInValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.HomePageTest" class="method navigator-link" hash-for-method="validateUserCanReturnProducts">validateUserCanReturnProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.HomePageTest" class="method navigator-link" hash-for-method="validateUserCanSortProductByAppleBrand">validateUserCanSortProductByAppleBrand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.HomePageTest" class="method navigator-link" hash-for-method="validateUserCanSortProductByCanonBrand">validateUserCanSortProductByCanonBrand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.HomePageTest" class="method navigator-link" hash-for-method="validateUserCanSortProductByHPBrand">validateUserCanSortProductByHPBrand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.HomePageTest" class="method navigator-link" hash-for-method="validateUserCanSortProductByHTCBrand">validateUserCanSortProductByHTCBrand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.HomePageTest" class="method navigator-link" hash-for-method="validateUserCanSortProductByPalmBrand">validateUserCanSortProductByPalmBrand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.HomePageTest" class="method navigator-link" hash-for-method="validateUserCanSortProductBySonyBrand">validateUserCanSortProductBySonyBrand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateUserCanSubscribeNewsLetter">validateUserCanSubscribeNewsLetter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateUserCanUnsubscribeNewsLetter">validateUserCanUnsubscribeNewsLetter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.AddressBookTest" class="method navigator-link" hash-for-method="validateUserCanUpdateAddress">validateUserCanUpdateAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateUserCanUpdateAffiliateInfo">validateUserCanUpdateAffiliateInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateUserCanUpdateEmail">validateUserCanUpdateEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateUserCanUpdateFirstName">validateUserCanUpdateFirstName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateUserCanUpdateLastName">validateUserCanUpdateLastName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateUserCanUpdateNumber">validateUserCanUpdateNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateUserCanUpdatePassword">validateUserCanUpdatePassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.ForgetPasswordTest" class="method navigator-link" hash-for-method="validateUserCannotChangePwdWithInValidCredentials">validateUserCannotChangePwdWithInValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.RegisterPageTest" class="method navigator-link" hash-for-method="validateUserCannotRegisterNewAccountWithPwdMismatch">validateUserCannotRegisterNewAccountWithPwdMismatch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.RegisterPageTest" class="method navigator-link" hash-for-method="validateUserCannotRegisterNewAccountWithRegistedEmail">validateUserCannotRegisterNewAccountWithRegistedEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.RegisterPageTest" class="method navigator-link" hash-for-method="validateUserCannotRegisterNewAccountWithoutCheckingAgree">validateUserCannotRegisterNewAccountWithoutCheckingAgree</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateUserCannotUpdateInfoWithEmptyField">validateUserCannotUpdateInfoWithEmptyField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateUserCannotUpdatePasswordIfPwdMismatch">validateUserCannotUpdatePasswordIfPwdMismatch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.pageTests.AccountPageTest" class="method navigator-link" hash-for-method="validateWishListMessage">validateWishListMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.naveenautomation.pageTests.AccountPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanRegisterNewAccount">
+                  </a> <!-- validateUserCanRegisterNewAccount -->
+                  <span class="method-name">validateUserCanRegisterNewAccount</span>
+                  <div class="stack-trace">java.lang.Error
+	at com.naveenautomation.pages.AccountSucessPage.isLoaded(AccountSucessPage.java:32)
+	at com.naveenautomation.pages.Page.waitForPageToLoad(Page.java:26)
+	at com.naveenautomation.pages.Page.&lt;init&gt;(Page.java:12)
+	at com.naveenautomation.pages.AccountSucessPage.&lt;init&gt;(AccountSucessPage.java:11)
+	at com.naveenautomation.pages.RegisterPage.clickSubmitButton(RegisterPage.java:76)
+	at com.naveenautomation.pageTests.AccountPageTest.validateUserCanRegisterNewAccount(AccountPageTest.java:134)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.naveenautomation.pageTests.RegisterPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCannotRegisterNewAccountWithPwdMismatch">
+                  </a> <!-- validateUserCannotRegisterNewAccountWithPwdMismatch -->
+                  <span class="method-name">validateUserCannotRegisterNewAccountWithPwdMismatch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCannotRegisterNewAccountWithRegistedEmail">
+                  </a> <!-- validateUserCannotRegisterNewAccountWithRegistedEmail -->
+                  <span class="method-name">validateUserCannotRegisterNewAccountWithRegistedEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCannotRegisterNewAccountWithoutCheckingAgree">
+                  </a> <!-- validateUserCannotRegisterNewAccountWithoutCheckingAgree -->
+                  <span class="method-name">validateUserCannotRegisterNewAccountWithoutCheckingAgree</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.naveenautomation.pageTests.ForgetPasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCannotChangePwdWithInValidCredentials">
+                  </a> <!-- validateUserCannotChangePwdWithInValidCredentials -->
+                  <span class="method-name">validateUserCannotChangePwdWithInValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.naveenautomation.pageTests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateContactUsEnquiryMessage">
+                  </a> <!-- validateContactUsEnquiryMessage -->
+                  <span class="method-name">validateContactUsEnquiryMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateHomeLogo">
+                  </a> <!-- validateHomeLogo -->
+                  <span class="method-name">validateHomeLogo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanLogout">
+                  </a> <!-- validateUserCanLogout -->
+                  <span class="method-name">validateUserCanLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanReturnProducts">
+                  </a> <!-- validateUserCanReturnProducts -->
+                  <span class="method-name">validateUserCanReturnProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanSortProductByAppleBrand">
+                  </a> <!-- validateUserCanSortProductByAppleBrand -->
+                  <span class="method-name">validateUserCanSortProductByAppleBrand</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanSortProductByCanonBrand">
+                  </a> <!-- validateUserCanSortProductByCanonBrand -->
+                  <span class="method-name">validateUserCanSortProductByCanonBrand</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanSortProductByHPBrand">
+                  </a> <!-- validateUserCanSortProductByHPBrand -->
+                  <span class="method-name">validateUserCanSortProductByHPBrand</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanSortProductByHTCBrand">
+                  </a> <!-- validateUserCanSortProductByHTCBrand -->
+                  <span class="method-name">validateUserCanSortProductByHTCBrand</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanSortProductByPalmBrand">
+                  </a> <!-- validateUserCanSortProductByPalmBrand -->
+                  <span class="method-name">validateUserCanSortProductByPalmBrand</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanSortProductBySonyBrand">
+                  </a> <!-- validateUserCanSortProductBySonyBrand -->
+                  <span class="method-name">validateUserCanSortProductBySonyBrand</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.naveenautomation.pageTests.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanAccessFwdPwdWithValidCredentials">
+                  </a> <!-- validateUserCanAccessFwdPwdWithValidCredentials -->
+                  <span class="method-name">validateUserCanAccessFwdPwdWithValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanNotLoginWithInValidCredentials">
+                  </a> <!-- validateUserCanNotLoginWithInValidCredentials -->
+                  <span class="method-name">validateUserCanNotLoginWithInValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.naveenautomation.pageTests.AccountPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAccountDownloadsMessage">
+                  </a> <!-- validateAccountDownloadsMessage -->
+                  <span class="method-name">validateAccountDownloadsMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginWithMultipleCredentials(andreas@email.com, qwerty)">
+                  </a> <!-- validateLoginWithMultipleCredentials(andreas@email.com, qwerty) -->
+                  <span class="method-name">validateLoginWithMultipleCredentials</span>
+                  <span class="parameters">(andreas@email.com, qwerty)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginWithMultipleCredentials(naveen@email.com, abcd)">
+                  </a> <!-- validateLoginWithMultipleCredentials(naveen@email.com, abcd) -->
+                  <span class="method-name">validateLoginWithMultipleCredentials</span>
+                  <span class="parameters">(naveen@email.com, abcd)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginWithMultipleCredentials(navenncxe@gmail.com, abcd)">
+                  </a> <!-- validateLoginWithMultipleCredentials(navenncxe@gmail.com, abcd) -->
+                  <span class="method-name">validateLoginWithMultipleCredentials</span>
+                  <span class="parameters">(navenncxe@gmail.com, abcd)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePaymentsMessage">
+                  </a> <!-- validatePaymentsMessage -->
+                  <span class="method-name">validatePaymentsMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateProductReturnMessage">
+                  </a> <!-- validateProductReturnMessage -->
+                  <span class="method-name">validateProductReturnMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateTransactionsPageMessage">
+                  </a> <!-- validateTransactionsPageMessage -->
+                  <span class="method-name">validateTransactionsPageMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserAbleToViewOrderHistory">
+                  </a> <!-- validateUserAbleToViewOrderHistory -->
+                  <span class="method-name">validateUserAbleToViewOrderHistory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserAbleToViewPreviousOrderDetails">
+                  </a> <!-- validateUserAbleToViewPreviousOrderDetails -->
+                  <span class="method-name">validateUserAbleToViewPreviousOrderDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserAbleToViewRewardPoint">
+                  </a> <!-- validateUserAbleToViewRewardPoint -->
+                  <span class="method-name">validateUserAbleToViewRewardPoint</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanLoginWithValidCredentials">
+                  </a> <!-- validateUserCanLoginWithValidCredentials -->
+                  <span class="method-name">validateUserCanLoginWithValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanSubscribeNewsLetter">
+                  </a> <!-- validateUserCanSubscribeNewsLetter -->
+                  <span class="method-name">validateUserCanSubscribeNewsLetter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanUnsubscribeNewsLetter">
+                  </a> <!-- validateUserCanUnsubscribeNewsLetter -->
+                  <span class="method-name">validateUserCanUnsubscribeNewsLetter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanUpdateAffiliateInfo">
+                  </a> <!-- validateUserCanUpdateAffiliateInfo -->
+                  <span class="method-name">validateUserCanUpdateAffiliateInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanUpdateEmail">
+                  </a> <!-- validateUserCanUpdateEmail -->
+                  <span class="method-name">validateUserCanUpdateEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanUpdateFirstName">
+                  </a> <!-- validateUserCanUpdateFirstName -->
+                  <span class="method-name">validateUserCanUpdateFirstName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanUpdateLastName">
+                  </a> <!-- validateUserCanUpdateLastName -->
+                  <span class="method-name">validateUserCanUpdateLastName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanUpdateNumber">
+                  </a> <!-- validateUserCanUpdateNumber -->
+                  <span class="method-name">validateUserCanUpdateNumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanUpdatePassword">
+                  </a> <!-- validateUserCanUpdatePassword -->
+                  <span class="method-name">validateUserCanUpdatePassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCannotUpdateInfoWithEmptyField">
+                  </a> <!-- validateUserCannotUpdateInfoWithEmptyField -->
+                  <span class="method-name">validateUserCannotUpdateInfoWithEmptyField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCannotUpdatePasswordIfPwdMismatch">
+                  </a> <!-- validateUserCannotUpdatePasswordIfPwdMismatch -->
+                  <span class="method-name">validateUserCannotUpdatePasswordIfPwdMismatch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateWishListMessage">
+                  </a> <!-- validateWishListMessage -->
+                  <span class="method-name">validateWishListMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.naveenautomation.pageTests.AddressBookTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanUpdateAddress">
+                  </a> <!-- validateUserCanUpdateAddress -->
+                  <span class="method-name">validateUserCanUpdateAddress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.naveenautomation.pageTests.AccountPageTest&quot;/&gt;
+      &lt;class name=&quot;com.naveenautomation.pageTests.AddressBookTest&quot;/&gt;
+      &lt;class name=&quot;com.naveenautomation.pageTests.ForgetPasswordTest&quot;/&gt;
+      &lt;class name=&quot;com.naveenautomation.pageTests.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.naveenautomation.pageTests.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.naveenautomation.pageTests.RegisterPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(40);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validateUserCanSortProductByAppleBrand')
+data.setCell(0, 2, 'com.naveenautomation.pageTests.HomePageTest')
+data.setCell(0, 3, 7932);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateUserCanReturnProducts')
+data.setCell(1, 2, 'com.naveenautomation.pageTests.HomePageTest')
+data.setCell(1, 3, 7254);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateContactUsEnquiryMessage')
+data.setCell(2, 2, 'com.naveenautomation.pageTests.HomePageTest')
+data.setCell(2, 3, 6597);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateUserCanSortProductByCanonBrand')
+data.setCell(3, 2, 'com.naveenautomation.pageTests.HomePageTest')
+data.setCell(3, 3, 6340);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateUserCanSortProductByPalmBrand')
+data.setCell(4, 2, 'com.naveenautomation.pageTests.HomePageTest')
+data.setCell(4, 3, 5974);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validateUserCanSortProductByHTCBrand')
+data.setCell(5, 2, 'com.naveenautomation.pageTests.HomePageTest')
+data.setCell(5, 3, 5645);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateUserCanLogout')
+data.setCell(6, 2, 'com.naveenautomation.pageTests.HomePageTest')
+data.setCell(6, 3, 5432);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validateUserCanSortProductByHPBrand')
+data.setCell(7, 2, 'com.naveenautomation.pageTests.HomePageTest')
+data.setCell(7, 3, 5414);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validateUserCannotUpdateInfoWithEmptyField')
+data.setCell(8, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(8, 3, 5405);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validateUserCanUpdateAddress')
+data.setCell(9, 2, 'com.naveenautomation.pageTests.AddressBookTest')
+data.setCell(9, 3, 5089);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validateUserCanUpdateEmail')
+data.setCell(10, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(10, 3, 5042);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'validateUserCanSortProductBySonyBrand')
+data.setCell(11, 2, 'com.naveenautomation.pageTests.HomePageTest')
+data.setCell(11, 3, 4888);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'validateHomeLogo')
+data.setCell(12, 2, 'com.naveenautomation.pageTests.HomePageTest')
+data.setCell(12, 3, 4880);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validateUserCanUpdateNumber')
+data.setCell(13, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(13, 3, 4789);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'validateUserAbleToViewPreviousOrderDetails')
+data.setCell(14, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(14, 3, 4573);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validateUserCanUpdateFirstName')
+data.setCell(15, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(15, 3, 4447);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'validateUserCanSubscribeNewsLetter')
+data.setCell(16, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(16, 3, 4403);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'validateUserCanUnsubscribeNewsLetter')
+data.setCell(17, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(17, 3, 4247);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'validateUserCanUpdateLastName')
+data.setCell(18, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(18, 3, 4199);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'validateUserCannotUpdatePasswordIfPwdMismatch')
+data.setCell(19, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(19, 3, 3944);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'validateUserCanUpdateAffiliateInfo')
+data.setCell(20, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(20, 3, 3580);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'validateUserCanUpdatePassword')
+data.setCell(21, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(21, 3, 3551);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'validateProductReturnMessage')
+data.setCell(22, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(22, 3, 3467);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'validateUserAbleToViewOrderHistory')
+data.setCell(23, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(23, 3, 3275);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'validateTransactionsPageMessage')
+data.setCell(24, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(24, 3, 3209);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'validateUserAbleToViewRewardPoint')
+data.setCell(25, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(25, 3, 3182);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'validateAccountDownloadsMessage')
+data.setCell(26, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(26, 3, 3139);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'validateUserCanRegisterNewAccount')
+data.setCell(27, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(27, 3, 3107);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'validatePaymentsMessage')
+data.setCell(28, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(28, 3, 3103);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'validateWishListMessage')
+data.setCell(29, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(29, 3, 2980);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'validateUserCannotRegisterNewAccountWithoutCheckingAgree')
+data.setCell(30, 2, 'com.naveenautomation.pageTests.RegisterPageTest')
+data.setCell(30, 3, 2955);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'validateUserCannotRegisterNewAccountWithRegistedEmail')
+data.setCell(31, 2, 'com.naveenautomation.pageTests.RegisterPageTest')
+data.setCell(31, 3, 2630);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'validateUserCannotRegisterNewAccountWithPwdMismatch')
+data.setCell(32, 2, 'com.naveenautomation.pageTests.RegisterPageTest')
+data.setCell(32, 3, 2525);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'validateUserCanAccessFwdPwdWithValidCredentials')
+data.setCell(33, 2, 'com.naveenautomation.pageTests.LoginPageTest')
+data.setCell(33, 3, 1939);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'validateLoginWithMultipleCredentials')
+data.setCell(34, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(34, 3, 1745);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'validateLoginWithMultipleCredentials')
+data.setCell(35, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(35, 3, 1692);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'validateUserCannotChangePwdWithInValidCredentials')
+data.setCell(36, 2, 'com.naveenautomation.pageTests.ForgetPasswordTest')
+data.setCell(36, 3, 1650);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'validateLoginWithMultipleCredentials')
+data.setCell(37, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(37, 3, 1628);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'validateUserCanLoginWithValidCredentials')
+data.setCell(38, 2, 'com.naveenautomation.pageTests.AccountPageTest')
+data.setCell(38, 3, 1600);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'validateUserCanNotLoginWithInValidCredentials')
+data.setCell(39, 2, 'com.naveenautomation.pageTests.LoginPageTest')
+data.setCell(39, 3, 955);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.naveenautomation.pageTests.AccountPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loggerSteup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">226 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateAccountDownloadsMessage</span>
+                <span class="method-start">18721 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">21861 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">23697 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateLoginWithMultipleCredentials(navenncxe@gmail.com, abcd)</span>
+                <span class="method-start">36814 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">38443 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">38628 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateLoginWithMultipleCredentials(andreas@email.com, qwerty)</span>
+                <span class="method-start">49265 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">51010 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">51456 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateLoginWithMultipleCredentials(naveen@email.com, abcd)</span>
+                <span class="method-start">61089 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">62781 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">63170 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatePaymentsMessage</span>
+                <span class="method-start">72102 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">75205 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">75625 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateProductReturnMessage</span>
+                <span class="method-start">85653 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">89120 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">89287 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateTransactionsPageMessage</span>
+                <span class="method-start">98149 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">101358 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">101531 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserAbleToViewOrderHistory</span>
+                <span class="method-start">111189 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">114464 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">114631 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserAbleToViewPreviousOrderDetails</span>
+                <span class="method-start">123791 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">128364 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">128692 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserAbleToViewRewardPoint</span>
+                <span class="method-start">136485 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">139667 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">139857 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCanLoginWithValidCredentials</span>
+                <span class="method-start">148517 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">150117 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">150311 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateUserCanRegisterNewAccount</span>
+                <span class="method-start">158192 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">161361 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">161537 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCanSubscribeNewsLetter</span>
+                <span class="method-start">172030 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">176434 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">176648 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCanUnsubscribeNewsLetter</span>
+                <span class="method-start">189887 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">194134 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">194816 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCanUpdateAffiliateInfo</span>
+                <span class="method-start">206581 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">210161 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">210427 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCanUpdateEmail</span>
+                <span class="method-start">221165 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">226207 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">226435 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCanUpdateFirstName</span>
+                <span class="method-start">239629 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">244076 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">244327 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCanUpdateLastName</span>
+                <span class="method-start">252584 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">256783 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">256988 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCanUpdateNumber</span>
+                <span class="method-start">265700 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">270489 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">270712 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCanUpdatePassword</span>
+                <span class="method-start">279850 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">283401 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">283893 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCannotUpdateInfoWithEmptyField</span>
+                <span class="method-start">293127 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">298532 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">298783 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCannotUpdatePasswordIfPwdMismatch</span>
+                <span class="method-start">309065 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">313010 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">313333 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateWishListMessage</span>
+                <span class="method-start">323178 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">326158 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.naveenautomation.pageTests.AddressBookTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loggerSteup</span>
+                <span class="method-start">326411 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">326414 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCanUpdateAddress</span>
+                <span class="method-start">334055 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">339145 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.naveenautomation.pageTests.ForgetPasswordTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loggerSteup</span>
+                <span class="method-start">339290 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">339293 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCannotChangePwdWithInValidCredentials</span>
+                <span class="method-start">347958 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">349608 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.naveenautomation.pageTests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loggerSteup</span>
+                <span class="method-start">349748 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">349751 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateContactUsEnquiryMessage</span>
+                <span class="method-start">361475 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">368072 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">368344 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateHomeLogo</span>
+                <span class="method-start">376768 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">381648 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">381827 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCanLogout</span>
+                <span class="method-start">390835 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">396268 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">396466 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCanReturnProducts</span>
+                <span class="method-start">405248 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">412502 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">412748 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCanSortProductByAppleBrand</span>
+                <span class="method-start">424744 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">432676 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">432898 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCanSortProductByCanonBrand</span>
+                <span class="method-start">443144 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">449484 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">449864 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCanSortProductByHPBrand</span>
+                <span class="method-start">459968 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">465382 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">465571 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCanSortProductByHTCBrand</span>
+                <span class="method-start">474458 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">480103 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">480277 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCanSortProductByPalmBrand</span>
+                <span class="method-start">489182 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">495156 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">495310 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCanSortProductBySonyBrand</span>
+                <span class="method-start">506516 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">511404 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.naveenautomation.pageTests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loggerSteup</span>
+                <span class="method-start">511572 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">511574 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCanAccessFwdPwdWithValidCredentials</span>
+                <span class="method-start">521268 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">523207 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">523334 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCanNotLoginWithInValidCredentials</span>
+                <span class="method-start">532532 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">533487 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.naveenautomation.pageTests.RegisterPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loggerSteup</span>
+                <span class="method-start">533822 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">533823 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCannotRegisterNewAccountWithPwdMismatch</span>
+                <span class="method-start">541752 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">544277 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">544378 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCannotRegisterNewAccountWithRegistedEmail</span>
+                <span class="method-start">554873 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">557504 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">557628 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCannotRegisterNewAccountWithoutCheckingAgree</span>
+                <span class="method-start">571043 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">573998 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

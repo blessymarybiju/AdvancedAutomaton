@@ -1250,3 +1250,87 @@
 2023-11-13 17:51:30 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanUpdatePersonalInfo****************************
 2023-11-13 17:51:39 INFO  TestBase:13 - **********************Test Case started: validateWishListMessage****************************
 2023-11-13 17:51:41 INFO  TestBase:19 - **********************Test Case Passed: validateWishListMessage****************************
+2023-11-14 22:57:50 INFO  TestBase:13 - **********************Test Case started: validateContactUsEnquiryMessage****************************
+2023-11-14 22:57:55 INFO  TestBase:19 - **********************Test Case Passed: validateContactUsEnquiryMessage****************************
+2023-11-14 22:58:09 INFO  TestBase:13 - **********************Test Case started: validateEmptyCartMessage****************************
+2023-11-14 22:58:14 INFO  TestBase:19 - **********************Test Case Passed: validateEmptyCartMessage****************************
+2023-11-14 22:58:24 INFO  TestBase:13 - **********************Test Case started: validateUserCanLogout****************************
+2023-11-14 22:58:29 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanLogout****************************
+2023-11-14 22:58:39 INFO  TestBase:13 - **********************Test Case started: validateUserCanReturnProducts****************************
+2023-11-14 22:58:45 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanReturnProducts****************************
+2023-11-14 22:58:54 INFO  TestBase:13 - **********************Test Case started: validateUserCanSortProductByAppleBrand****************************
+2023-11-14 22:58:59 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanSortProductByAppleBrand****************************
+2023-11-14 22:59:08 INFO  TestBase:13 - **********************Test Case started: validateUserCanSortProductByCanonBrand****************************
+2023-11-14 22:59:14 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanSortProductByCanonBrand****************************
+2023-11-14 22:59:22 INFO  TestBase:13 - **********************Test Case started: validateUserCanSortProductByHPBrand****************************
+2023-11-14 22:59:27 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanSortProductByHPBrand****************************
+2023-11-14 22:59:36 INFO  TestBase:13 - **********************Test Case started: validateUserCanSortProductByHTCBrand****************************
+2023-11-14 22:59:41 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanSortProductByHTCBrand****************************
+2023-11-14 22:59:50 INFO  TestBase:13 - **********************Test Case started: validateUserCanSortProductByPalmBrand****************************
+2023-11-14 22:59:54 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanSortProductByPalmBrand****************************
+2023-11-14 23:00:04 INFO  TestBase:13 - **********************Test Case started: validateUserCanSortProductBySonyBrand****************************
+2023-11-14 23:00:09 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanSortProductBySonyBrand****************************
+2023-11-14 23:00:19 INFO  TestBase:13 - **********************Test Case started: validateUserCannotChangePwdWithInValidCredentials****************************
+2023-11-14 23:00:19 INFO  TestBase:15 - Retrying failed test : validateUserCannotChangePwdWithInValidCredentialsfor 1
+2023-11-14 23:00:19 INFO  TestBase:32 - ??????????????????Test Case skipped: validateUserCannotChangePwdWithInValidCredentials????????????????
+2023-11-14 23:00:29 INFO  TestBase:13 - **********************Test Case started: validateUserCannotChangePwdWithInValidCredentials****************************
+2023-11-14 23:00:29 INFO  TestBase:15 - Retrying failed test : validateUserCannotChangePwdWithInValidCredentialsfor 2
+2023-11-14 23:00:29 INFO  TestBase:25 - !!!!!!!!!!!!!!Test Case Fail: validateUserCannotChangePwdWithInValidCredentials Taking Screenshot!!!!!!!!!!!!!!!!!!!!
+2023-11-14 23:00:38 INFO  TestBase:13 - **********************Test Case started: validateUserCanAccessFwdPwdWithValidCredentials****************************
+2023-11-14 23:00:39 INFO  TestBase:15 - Retrying failed test : validateUserCanAccessFwdPwdWithValidCredentialsfor 1
+2023-11-14 23:00:39 INFO  TestBase:32 - ??????????????????Test Case skipped: validateUserCanAccessFwdPwdWithValidCredentials????????????????
+2023-11-14 23:00:48 INFO  TestBase:13 - **********************Test Case started: validateUserCanAccessFwdPwdWithValidCredentials****************************
+2023-11-14 23:00:48 INFO  TestBase:15 - Retrying failed test : validateUserCanAccessFwdPwdWithValidCredentialsfor 2
+2023-11-14 23:00:48 INFO  TestBase:25 - !!!!!!!!!!!!!!Test Case Fail: validateUserCanAccessFwdPwdWithValidCredentials Taking Screenshot!!!!!!!!!!!!!!!!!!!!
+2023-11-14 23:00:57 INFO  TestBase:13 - **********************Test Case started: validateUserCanNotLoginWithInValidCredentials****************************
+2023-11-14 23:00:58 INFO  TestBase:15 - Retrying failed test : validateUserCanNotLoginWithInValidCredentialsfor 1
+2023-11-14 23:00:58 INFO  TestBase:32 - ??????????????????Test Case skipped: validateUserCanNotLoginWithInValidCredentials????????????????
+2023-11-14 23:01:08 INFO  TestBase:13 - **********************Test Case started: validateUserCanNotLoginWithInValidCredentials****************************
+2023-11-14 23:01:09 INFO  TestBase:15 - Retrying failed test : validateUserCanNotLoginWithInValidCredentialsfor 2
+2023-11-14 23:01:09 INFO  TestBase:25 - !!!!!!!!!!!!!!Test Case Fail: validateUserCanNotLoginWithInValidCredentials Taking Screenshot!!!!!!!!!!!!!!!!!!!!
+2023-11-14 23:01:18 INFO  TestBase:13 - **********************Test Case started: validateAccountDownloadsMessage****************************
+2023-11-14 23:01:21 INFO  TestBase:19 - **********************Test Case Passed: validateAccountDownloadsMessage****************************
+2023-11-14 23:01:31 INFO  TestBase:13 - **********************Test Case started: validateLoginWithMultipleCredentials****************************
+2023-11-14 23:01:33 INFO  TestBase:19 - **********************Test Case Passed: validateLoginWithMultipleCredentials****************************
+2023-11-14 23:01:42 INFO  TestBase:13 - **********************Test Case started: validateLoginWithMultipleCredentials****************************
+2023-11-14 23:01:44 INFO  TestBase:19 - **********************Test Case Passed: validateLoginWithMultipleCredentials****************************
+2023-11-14 23:01:53 INFO  TestBase:13 - **********************Test Case started: validateLoginWithMultipleCredentials****************************
+2023-11-14 23:01:54 INFO  TestBase:19 - **********************Test Case Passed: validateLoginWithMultipleCredentials****************************
+2023-11-14 23:02:04 INFO  TestBase:13 - **********************Test Case started: validatePaymentsMessage****************************
+2023-11-14 23:02:06 INFO  TestBase:19 - **********************Test Case Passed: validatePaymentsMessage****************************
+2023-11-14 23:02:15 INFO  TestBase:13 - **********************Test Case started: validateProductReturnMessage****************************
+2023-11-14 23:02:17 INFO  TestBase:19 - **********************Test Case Passed: validateProductReturnMessage****************************
+2023-11-14 23:02:27 INFO  TestBase:13 - **********************Test Case started: validateTransactionsPageMessage****************************
+2023-11-14 23:02:29 INFO  TestBase:19 - **********************Test Case Passed: validateTransactionsPageMessage****************************
+2023-11-14 23:02:41 INFO  TestBase:13 - **********************Test Case started: validateUserAbleToViewOrderHistory****************************
+2023-11-14 23:02:44 INFO  TestBase:19 - **********************Test Case Passed: validateUserAbleToViewOrderHistory****************************
+2023-11-14 23:02:53 INFO  TestBase:13 - **********************Test Case started: validateUserAbleToViewPreviousOrderDetails****************************
+2023-11-14 23:02:57 INFO  TestBase:19 - **********************Test Case Passed: validateUserAbleToViewPreviousOrderDetails****************************
+2023-11-14 23:03:07 INFO  TestBase:13 - **********************Test Case started: validateUserAbleToViewRewardPoint****************************
+2023-11-14 23:03:09 INFO  TestBase:19 - **********************Test Case Passed: validateUserAbleToViewRewardPoint****************************
+2023-11-14 23:03:19 INFO  TestBase:13 - **********************Test Case started: validateUserCanLoginWithValidCredentials****************************
+2023-11-14 23:03:21 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanLoginWithValidCredentials****************************
+2023-11-14 23:03:30 INFO  TestBase:13 - **********************Test Case started: validateUserCanRegisterNewAccount****************************
+2023-11-14 23:03:35 INFO  TestBase:15 - Retrying failed test : validateUserCanRegisterNewAccountfor 1
+2023-11-14 23:03:35 INFO  TestBase:32 - ??????????????????Test Case skipped: validateUserCanRegisterNewAccount????????????????
+2023-11-14 23:03:44 INFO  TestBase:13 - **********************Test Case started: validateUserCanRegisterNewAccount****************************
+2023-11-14 23:03:47 INFO  TestBase:15 - Retrying failed test : validateUserCanRegisterNewAccountfor 2
+2023-11-14 23:03:47 INFO  TestBase:25 - !!!!!!!!!!!!!!Test Case Fail: validateUserCanRegisterNewAccount Taking Screenshot!!!!!!!!!!!!!!!!!!!!
+2023-11-14 23:03:58 INFO  TestBase:13 - **********************Test Case started: validateUserCanSubscribeNewsLetter****************************
+2023-11-14 23:04:01 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanSubscribeNewsLetter****************************
+2023-11-14 23:04:10 INFO  TestBase:13 - **********************Test Case started: validateUserCanUnsubscribeNewsLetter****************************
+2023-11-14 23:04:13 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanUnsubscribeNewsLetter****************************
+2023-11-14 23:04:21 INFO  TestBase:13 - **********************Test Case started: validateUserCanUpdateAffiliateInfo****************************
+2023-11-14 23:04:24 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanUpdateAffiliateInfo****************************
+2023-11-14 23:04:33 INFO  TestBase:13 - **********************Test Case started: validateUserCanUpdateEmail****************************
+2023-11-14 23:04:37 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanUpdateEmail****************************
+2023-11-14 23:04:45 INFO  TestBase:13 - **********************Test Case started: validateUserCanUpdateFirstName****************************
+2023-11-14 23:04:48 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanUpdateFirstName****************************
+2023-11-14 23:04:57 INFO  TestBase:13 - **********************Test Case started: validateUserCanUpdateLastName****************************
+2023-11-14 23:05:00 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanUpdateLastName****************************
+2023-11-14 23:05:09 INFO  TestBase:13 - **********************Test Case started: validateUserCanUpdateNumber****************************
+2023-11-14 23:05:12 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanUpdateNumber****************************
+2023-11-14 23:05:22 INFO  TestBase:13 - **********************Test Case started: validateUserCanUpdatePassword****************************
+2023-11-14 23:05:25 INFO  TestBase:19 - **********************Test Case Passed: validateUserCanUpdatePassword****************************
+2023-11-14 23:05:34 INFO  TestBase:13 - **********************Test Case started: validateWishListMessage****************************
+2023-11-14 23:05:36 INFO  TestBase:19 - **********************Test Case Passed: validateWishListMessage****************************

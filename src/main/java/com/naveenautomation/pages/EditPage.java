@@ -17,6 +17,18 @@ public class EditPage extends Page {
 	private static By emailInput = By.id("input-email");
 	private static By telePhoneInput = By.id("input-telephone");
 	private static By submitBtn = By.cssSelector("input[value='Continue']");
+	private static By backBtn = By.cssSelector("a.btn-default");
+	private static By emptyLastNameAlert = By.cssSelector("div.text-danger");
+	
+	public AccountPage clickBackBtn() {
+		((ProxyDriver) wd).click(backBtn);
+		return new AccountPage(wd, true);
+	}
+
+	public String getAlertForEmptyLastName() {
+		return ((ProxyDriver) wd).getText(emptyLastNameAlert);
+	}
+
 
 	public void enterFName(String fname) {
 		((ProxyDriver) wd).clear(firstNameInput);
@@ -25,16 +37,19 @@ public class EditPage extends Page {
 	}
 
 	public void enterLName(String lname) {
+		((ProxyDriver) wd).clear(lastNameInput);
 		((ProxyDriver) wd).click(lastNameInput);
 		((ProxyDriver) wd).sendKeys(lastNameInput, lname);
 	}
 
 	public void enterEmail(String email) {
+		((ProxyDriver) wd).clear(emailInput);
 		((ProxyDriver) wd).click(emailInput);
 		((ProxyDriver) wd).sendKeys(emailInput, email);
 	}
 
 	public void enterTelephone(String number) {
+		((ProxyDriver) wd).clear(telePhoneInput);
 		((ProxyDriver) wd).click(telePhoneInput);
 		((ProxyDriver) wd).sendKeys(telePhoneInput, number);
 	}
@@ -42,6 +57,12 @@ public class EditPage extends Page {
 	public AccountPage clickSubmitBtn() {
 		((ProxyDriver) wd).click(submitBtn);
 		return new AccountPage(wd, true);
+	}
+	
+	public EditPage clickSubmitBtnWithEmptyField() {
+		((ProxyDriver) wd).clear(lastNameInput);
+		((ProxyDriver) wd).click(submitBtn);
+		return new EditPage(wd, true);
 	}
 
 	@Override

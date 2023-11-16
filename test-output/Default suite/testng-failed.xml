@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.naveenautomation.pageTests.LoginPageTest">
+      <class name="com.naveenautomation.pageTests.AccountPageTest">
         <methods>
-          <include name="quitBrowser"/>
+          <include name="validateUserCannotUpdatePasswordIfPwdMismatch"/>
           <include name="launch"/>
-          <include name="validateUserCanNotLoginWithInValidCredentials"/>
+          <include name="quitBrowser"/>
           <include name="loggerSteup"/>
         </methods>
-      </class> <!-- com.naveenautomation.pageTests.LoginPageTest -->
+      </class> <!-- com.naveenautomation.pageTests.AccountPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
