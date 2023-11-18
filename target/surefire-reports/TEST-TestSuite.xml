@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="576.114" tests="40" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="518.075" tests="40" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.16\bin"/>
-    <property name="sun.java.command" value="C:\WINDOWS\TEMP\surefire3081286736209385077\surefirebooter13319234395891902827.jar C:\Windows\Temp\surefire3081286736209385077 2023-11-15T19-09-36_791-jvmRun1 surefire7998963257477433916tmp surefire_05996596690447666098tmp"/>
+    <property name="sun.java.command" value="C:\WINDOWS\TEMP\surefire13211132479105173737\surefirebooter3926481725524439785.jar C:\Windows\Temp\surefire13211132479105173737 2023-11-18T09-44-28_650-jvmRun1 surefire2871177990341350134tmp surefire_05658062596301821676tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Dijish\eclipse-workspace\Advanced_AutomationFramework\target\test-classes;C:\Users\Dijish\eclipse-workspace\Advanced_AutomationFramework\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\aventstack\extentreports\3.1.2\extentreports-3.1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\github\bonigarcia\webdrivermanager\5.4.0\webdrivermanager-5.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java\3.3.1\docker-java-3.3.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-core\3.3.1\docker-java-core-3.3.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-api\3.3.1\docker-java-api-3.3.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.1\docker-java-transport-httpclient5-3.3.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-transport\3.3.1\docker-java-transport-3.3.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\WINDOWS\TEMP\surefire3081286736209385077\surefirebooter13319234395891902827.jar"/>
+    <property name="surefire.real.class.path" value="C:\WINDOWS\TEMP\surefire13211132479105173737\surefirebooter3926481725524439785.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.16+11-LTS-199"/>
@@ -42,6 +42,7 @@
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
+    <property name="browser" value="Chrome"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="java.vendor.version" value="18.9"/>
     <property name="localRepository" value="C:\WINDOWS\system32\config\systemprofile\.m2\repository"/>
@@ -60,58 +61,58 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="validateAccountDownloadsMessage" classname="com.naveenautomation.pageTests.AccountPageTest" time="3.139"/>
-  <testcase name="validateLoginWithMultipleCredentials" classname="com.naveenautomation.pageTests.AccountPageTest" time="1.628"/>
-  <testcase name="validateLoginWithMultipleCredentials" classname="com.naveenautomation.pageTests.AccountPageTest" time="1.744"/>
-  <testcase name="validateLoginWithMultipleCredentials" classname="com.naveenautomation.pageTests.AccountPageTest" time="1.692"/>
-  <testcase name="validatePaymentsMessage" classname="com.naveenautomation.pageTests.AccountPageTest" time="3.103"/>
-  <testcase name="validateProductReturnMessage" classname="com.naveenautomation.pageTests.AccountPageTest" time="3.467"/>
-  <testcase name="validateTransactionsPageMessage" classname="com.naveenautomation.pageTests.AccountPageTest" time="3.209"/>
-  <testcase name="validateUserAbleToViewOrderHistory" classname="com.naveenautomation.pageTests.AccountPageTest" time="3.275"/>
-  <testcase name="validateUserAbleToViewPreviousOrderDetails" classname="com.naveenautomation.pageTests.AccountPageTest" time="4.571"/>
-  <testcase name="validateUserAbleToViewRewardPoint" classname="com.naveenautomation.pageTests.AccountPageTest" time="3.183"/>
-  <testcase name="validateUserCanLoginWithValidCredentials" classname="com.naveenautomation.pageTests.AccountPageTest" time="1.599"/>
-  <testcase name="validateUserCanRegisterNewAccount" classname="com.naveenautomation.pageTests.AccountPageTest" time="3.17">
+  <testcase name="validateAccountDownloadsMessage" classname="com.naveenautomation.pageTests.AccountPageTest" time="2.933"/>
+  <testcase name="validateLoginWithMultipleCredentials" classname="com.naveenautomation.pageTests.AccountPageTest" time="1.352"/>
+  <testcase name="validateLoginWithMultipleCredentials" classname="com.naveenautomation.pageTests.AccountPageTest" time="4.23"/>
+  <testcase name="validateLoginWithMultipleCredentials" classname="com.naveenautomation.pageTests.AccountPageTest" time="2.017"/>
+  <testcase name="validatePaymentsMessage" classname="com.naveenautomation.pageTests.AccountPageTest" time="3.839"/>
+  <testcase name="validateProductReturnMessage" classname="com.naveenautomation.pageTests.AccountPageTest" time="3.781"/>
+  <testcase name="validateTransactionsPageMessage" classname="com.naveenautomation.pageTests.AccountPageTest" time="3.896"/>
+  <testcase name="validateUserAbleToViewOrderHistory" classname="com.naveenautomation.pageTests.AccountPageTest" time="3.943"/>
+  <testcase name="validateUserAbleToViewPreviousOrderDetails" classname="com.naveenautomation.pageTests.AccountPageTest" time="5.604"/>
+  <testcase name="validateUserAbleToViewRewardPoint" classname="com.naveenautomation.pageTests.AccountPageTest" time="3.542"/>
+  <testcase name="validateUserCanLoginWithValidCredentials" classname="com.naveenautomation.pageTests.AccountPageTest" time="1.708"/>
+  <testcase name="validateUserCanRegisterNewAccount" classname="com.naveenautomation.pageTests.AccountPageTest" time="4.247">
     <failure type="java.lang.Error">java.lang.Error
 	at com.naveenautomation.pageTests.AccountPageTest.validateUserCanRegisterNewAccount(AccountPageTest.java:134)
 </failure>
     <system-out><![CDATA[Checking URL: Contains: https://naveenautomationlabs.com/opencart/index.php?route=account/register; Actual: https://naveenautomationlabs.com/opencart/index.php?route=account/register
 Checking URL: Contains: https://naveenautomationlabs.com/opencart/index.php?route=account/success; Actual: https://naveenautomationlabs.com/opencart/index.php?route=account/register
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 34907
+    <system-err><![CDATA[Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 22096
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Nov 15, 2023 7:12:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Nov 18, 2023 9:46:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="validateUserCanSubscribeNewsLetter" classname="com.naveenautomation.pageTests.AccountPageTest" time="4.403"/>
-  <testcase name="validateUserCanUnsubscribeNewsLetter" classname="com.naveenautomation.pageTests.AccountPageTest" time="4.247"/>
-  <testcase name="validateUserCanUpdateAffiliateInfo" classname="com.naveenautomation.pageTests.AccountPageTest" time="3.58"/>
-  <testcase name="validateUserCanUpdateEmail" classname="com.naveenautomation.pageTests.AccountPageTest" time="5.041"/>
-  <testcase name="validateUserCanUpdateFirstName" classname="com.naveenautomation.pageTests.AccountPageTest" time="4.447"/>
-  <testcase name="validateUserCanUpdateLastName" classname="com.naveenautomation.pageTests.AccountPageTest" time="4.199"/>
-  <testcase name="validateUserCanUpdateNumber" classname="com.naveenautomation.pageTests.AccountPageTest" time="4.789"/>
-  <testcase name="validateUserCanUpdatePassword" classname="com.naveenautomation.pageTests.AccountPageTest" time="3.552"/>
-  <testcase name="validateUserCannotUpdateInfoWithEmptyField" classname="com.naveenautomation.pageTests.AccountPageTest" time="5.405"/>
-  <testcase name="validateUserCannotUpdatePasswordIfPwdMismatch" classname="com.naveenautomation.pageTests.AccountPageTest" time="3.944"/>
-  <testcase name="validateWishListMessage" classname="com.naveenautomation.pageTests.AccountPageTest" time="2.98"/>
-  <testcase name="validateUserCanUpdateAddress" classname="com.naveenautomation.pageTests.AddressBookTest" time="5.09"/>
-  <testcase name="validateUserCannotChangePwdWithInValidCredentials" classname="com.naveenautomation.pageTests.ForgetPasswordTest" time="1.65"/>
-  <testcase name="validateContactUsEnquiryMessage" classname="com.naveenautomation.pageTests.HomePageTest" time="6.596"/>
-  <testcase name="validateHomeLogo" classname="com.naveenautomation.pageTests.HomePageTest" time="4.88"/>
-  <testcase name="validateUserCanLogout" classname="com.naveenautomation.pageTests.HomePageTest" time="5.432"/>
-  <testcase name="validateUserCanReturnProducts" classname="com.naveenautomation.pageTests.HomePageTest" time="7.254"/>
-  <testcase name="validateUserCanSortProductByAppleBrand" classname="com.naveenautomation.pageTests.HomePageTest" time="7.933"/>
-  <testcase name="validateUserCanSortProductByCanonBrand" classname="com.naveenautomation.pageTests.HomePageTest" time="6.339"/>
-  <testcase name="validateUserCanSortProductByHPBrand" classname="com.naveenautomation.pageTests.HomePageTest" time="5.413"/>
-  <testcase name="validateUserCanSortProductByHTCBrand" classname="com.naveenautomation.pageTests.HomePageTest" time="5.644"/>
-  <testcase name="validateUserCanSortProductByPalmBrand" classname="com.naveenautomation.pageTests.HomePageTest" time="5.974"/>
-  <testcase name="validateUserCanSortProductBySonyBrand" classname="com.naveenautomation.pageTests.HomePageTest" time="4.888"/>
-  <testcase name="validateUserCanAccessFwdPwdWithValidCredentials" classname="com.naveenautomation.pageTests.LoginPageTest" time="1.939"/>
-  <testcase name="validateUserCanNotLoginWithInValidCredentials" classname="com.naveenautomation.pageTests.LoginPageTest" time="0.955"/>
-  <testcase name="validateUserCannotRegisterNewAccountWithPwdMismatch" classname="com.naveenautomation.pageTests.RegisterPageTest" time="2.525"/>
-  <testcase name="validateUserCannotRegisterNewAccountWithRegistedEmail" classname="com.naveenautomation.pageTests.RegisterPageTest" time="2.631"/>
-  <testcase name="validateUserCannotRegisterNewAccountWithoutCheckingAgree" classname="com.naveenautomation.pageTests.RegisterPageTest" time="2.955"/>
+  <testcase name="validateUserCanSubscribeNewsLetter" classname="com.naveenautomation.pageTests.AccountPageTest" time="4.355"/>
+  <testcase name="validateUserCanUnsubscribeNewsLetter" classname="com.naveenautomation.pageTests.AccountPageTest" time="4.026"/>
+  <testcase name="validateUserCanUpdateAffiliateInfo" classname="com.naveenautomation.pageTests.AccountPageTest" time="4.163"/>
+  <testcase name="validateUserCanUpdateEmail" classname="com.naveenautomation.pageTests.AccountPageTest" time="5.227"/>
+  <testcase name="validateUserCanUpdateFirstName" classname="com.naveenautomation.pageTests.AccountPageTest" time="4.752"/>
+  <testcase name="validateUserCanUpdateLastName" classname="com.naveenautomation.pageTests.AccountPageTest" time="4.9"/>
+  <testcase name="validateUserCanUpdateNumber" classname="com.naveenautomation.pageTests.AccountPageTest" time="4.593"/>
+  <testcase name="validateUserCanUpdatePassword" classname="com.naveenautomation.pageTests.AccountPageTest" time="4.516"/>
+  <testcase name="validateUserCannotUpdateInfoWithEmptyField" classname="com.naveenautomation.pageTests.AccountPageTest" time="6.519"/>
+  <testcase name="validateUserCannotUpdatePasswordIfPwdMismatch" classname="com.naveenautomation.pageTests.AccountPageTest" time="4.437"/>
+  <testcase name="validateWishListMessage" classname="com.naveenautomation.pageTests.AccountPageTest" time="3.261"/>
+  <testcase name="validateUserCanUpdateAddress" classname="com.naveenautomation.pageTests.AddressBookTest" time="6.003"/>
+  <testcase name="validateUserCannotChangePwdWithInValidCredentials" classname="com.naveenautomation.pageTests.ForgetPasswordTest" time="1.803"/>
+  <testcase name="validateContactUsEnquiryMessage" classname="com.naveenautomation.pageTests.HomePageTest" time="6.752"/>
+  <testcase name="validateHomeLogo" classname="com.naveenautomation.pageTests.HomePageTest" time="3.989"/>
+  <testcase name="validateUserCanLogout" classname="com.naveenautomation.pageTests.HomePageTest" time="5.568"/>
+  <testcase name="validateUserCanReturnProducts" classname="com.naveenautomation.pageTests.HomePageTest" time="7.292"/>
+  <testcase name="validateUserCanSortProductByAppleBrand" classname="com.naveenautomation.pageTests.HomePageTest" time="6.254"/>
+  <testcase name="validateUserCanSortProductByCanonBrand" classname="com.naveenautomation.pageTests.HomePageTest" time="5.723"/>
+  <testcase name="validateUserCanSortProductByHPBrand" classname="com.naveenautomation.pageTests.HomePageTest" time="6.006"/>
+  <testcase name="validateUserCanSortProductByHTCBrand" classname="com.naveenautomation.pageTests.HomePageTest" time="6.506"/>
+  <testcase name="validateUserCanSortProductByPalmBrand" classname="com.naveenautomation.pageTests.HomePageTest" time="6.445"/>
+  <testcase name="validateUserCanSortProductBySonyBrand" classname="com.naveenautomation.pageTests.HomePageTest" time="5.955"/>
+  <testcase name="validateUserCanAccessFwdPwdWithValidCredentials" classname="com.naveenautomation.pageTests.LoginPageTest" time="2.832"/>
+  <testcase name="validateUserCanNotLoginWithInValidCredentials" classname="com.naveenautomation.pageTests.LoginPageTest" time="1.571"/>
+  <testcase name="validateUserCannotRegisterNewAccountWithPwdMismatch" classname="com.naveenautomation.pageTests.RegisterPageTest" time="4.332"/>
+  <testcase name="validateUserCannotRegisterNewAccountWithRegistedEmail" classname="com.naveenautomation.pageTests.RegisterPageTest" time="4.272"/>
+  <testcase name="validateUserCannotRegisterNewAccountWithoutCheckingAgree" classname="com.naveenautomation.pageTests.RegisterPageTest" time="3.75"/>
 </testsuite>

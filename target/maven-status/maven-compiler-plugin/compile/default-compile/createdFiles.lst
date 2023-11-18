@@ -17,7 +17,6 @@ com\naveenautomation\utils\TransformerForRetry.class
 com\naveenautomation\pages\LoginPage.class
 com\naveenautomation\pages\ApplePage.class
 com\naveenautomation\environment\Environment.class
-com\naveenautomation\base\TestBase$1.class
 com\naveenautomation\pages\AddReturnProduct.class
 com\naveenautomation\pages\WishListPage.class
 com\naveenautomation\pages\NewsLetterSubscriptionPage.class

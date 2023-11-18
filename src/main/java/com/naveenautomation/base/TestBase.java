@@ -22,7 +22,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class TestBase {
 	public static WebDriver wd;
 
-	private final Browser DEFAULT_BROWSER = Browser.CHROME;
+	// private final Browser DEFAULT_BROWSER = Browser.CHROME;
 	private final Environment URL = Environment.PROD;
 	public String emailId = "navenncxe@gmail.com";
 	public String password = "abcd";
@@ -30,6 +30,7 @@ public class TestBase {
 	public WebDriverEvent events;
 	public EventFiringWebDriver e_driver;
 	private static final boolean RUN_ON_GRID = false;
+	private String ExecutionBrowser;
 
 	@BeforeClass
 	public void loggerSteup() {
@@ -40,23 +41,38 @@ public class TestBase {
 	}
 
 	public void intialisation() {
+		ExecutionBrowser = System.getProperty("browser");
 		if (RUN_ON_GRID) {
 			wd = new RemoteWebDriver(null);
 		} else {
 
-			switch (DEFAULT_BROWSER) {
-			case CHROME:
+			switch (ExecutionBrowser.toUpperCase()) {
+			case "CHROME":
 				wd = new ProxyDriver(WebDriverManager.chromedriver().create());
 				break;
-			case EDGE:
+			case "EDGE":
 				wd = new ProxyDriver(WebDriverManager.edgedriver().create());
 				break;
-			case FIREFOX:
+			case "FIREFOX":
 				wd = new ProxyDriver(WebDriverManager.firefoxdriver().create());
 				break;
 			default:
 				throw new IllegalArgumentException();
 			}
+
+//			switch (DEFAULT_BROWSER) {
+//			case CHROME:
+//				wd = new ProxyDriver(WebDriverManager.chromedriver().create());
+//				break;
+//			case EDGE:
+//				wd = new ProxyDriver(WebDriverManager.edgedriver().create());
+//				break;
+//			case FIREFOX:
+//				wd = new ProxyDriver(WebDriverManager.firefoxdriver().create());
+//				break;
+//			default:
+//				throw new IllegalArgumentException();
+//			}
 		}
 
 		/* Loading the Page */
